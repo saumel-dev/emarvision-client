@@ -1,0 +1,21 @@
+{
+  "Home": {
+    "title": "Selamat datang di layanan kami",
+    "subtitle": "Semua kebutuhan bisnis Anda, di satu tempat."
+  },
+  "Hero": {
+    "title": "Kembangkan bisnis Anda bersama kami",
+    "subtitle": "Otomatisasi bisnis, perizinan, dan solusi WhatsApp, semuanya di satu tempat.",
+    "button": "Mulai sekarang"
+  },
+  "Navbar": {
+    "home": "Beranda",
+    "products": "Produk",
+    "services": "Layanan",
+    "about": "Tentang Kami",
+    "contact": "Hubungi Kami",
+    "logIn": "Masuk",
+    "signUp": "Daftar",
+    "menu": "Buka menu"
+  }
+}

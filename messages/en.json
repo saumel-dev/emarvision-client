@@ -1,0 +1,219 @@
+{
+  "Hero": {
+    "badge": "ZATCA Phase 2 ready · Built for MENA",
+    "title": "Every <highlight>digital service</highlight> your business needs, in one place.",
+    "description": "88 ready-to-deploy products and expert IT services, from websites and fintech to cybersecurity and hosting. Priced in SAR, delivered digitally, supported 24/7.",
+    "exploreCta": "Explore solutions",
+    "requestCta": "Request consultation"
+  },
+  "Navbar": {
+    "solutions": "Solutions",
+    "categories": "Categories",
+    "howItWorks": "How it works",
+    "faq": "FAQ",
+    "requestConsultation": "Request consultation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Change language"
+  },
+  "Stats": {
+    "productsValue": "88",
+    "productsLabel": "Digital products & services",
+    "areasValue": "06",
+    "areasLabel": "Core service areas",
+    "languagesValue": "05",
+    "languagesLabel": "Languages, incl. Arabic (RTL)",
+    "supportValue": "24/7",
+    "supportLabel": "Enterprise IT support"
+  },
+  "Services": {
+    "heading": "One place for every digital need.",
+    "description": "From websites and commerce to security, fintech, and infrastructure. Find the right starting point for your business.",
+    "explore": "Explore",
+    "items": {
+      "01": {
+        "title": "Web, Mobile & Desktop Apps",
+        "description": "Web apps, React, Next.js, WordPress; Android apps, desktop tools."
+      },
+      "02": {
+        "title": "E-commerce & Retail",
+        "description": "Online stores, POS and multi-vendor marketplaces."
+      },
+      "03": {
+        "title": "Fintech & Payments",
+        "description": "Payment gateways, digital wallets and fintech."
+      },
+      "04": {
+        "title": "Business & Team Software",
+        "description": "Team tools, SaaS and business systems."
+      },
+      "05": {
+        "title": "Data Center & Hosting",
+        "description": "Servers, cloud hosting, backups and managed infrastructure."
+      },
+      "06": {
+        "title": "IT Services & Consulting",
+        "description": "Cloud migration, hosting and infrastructure."
+      },
+      "07": {
+        "title": "Media & Marketing",
+        "description": "AI-enabled media, marketing and optimization."
+      },
+      "08": {
+        "title": "Cybersecurity",
+        "description": "Assessments, testing, protection and compliance."
+      },
+      "09": {
+        "title": "Integrations & Compliance",
+        "description": "Third-party integrations, ZATCA and Fatoora."
+      }
+    }
+  },
+  "Consultation": {
+    "heading": "Unsure about the best solution for your needs?",
+    "description": "Tell us about your business, goals, or technical requirements. Our team can help you identify the right solution from our catalog.",
+    "sideLine1": "Start with a conversation.",
+    "sideLine2": "Find a clearer way forward.",
+    "button": "Talk to our team",
+    "steps": {
+      "share": {
+        "title": "Share your needs with our team.",
+        "description": "Share your business goals or technical requirements."
+      },
+      "recommend": {
+        "title": "Get the Right Recommendation",
+        "description": "Our specialists review your needs and suggest the right products and services."
+      },
+      "forward": {
+        "title": "Move Forward with Confidence",
+        "description": "Start with a clear plan, a delivery timeline and ongoing support."
+      }
+    }
+  },
+  "Solutions": {
+    "heading": "Enterprise-grade. Built for Saudi Arabia and beyond.",
+    "description": "Every engagement comes with the compliance, security and support standards that regulated businesses in the region expect.",
+    "priceNote": "Starting price · catalog price pending",
+    "cta": "Ask About This Solution",
+    "prev": "Previous solution",
+    "next": "Next solution",
+    "items": {
+      "webApp": {
+        "category": "Web & Websites",
+        "title": "Custom Web Application Development",
+        "description": "Purpose-built web applications for your business requirements.",
+        "price": "SAR — 2,050"
+      },
+      "reactNext": {
+        "category": "Web & Websites",
+        "title": "React & Next.js Website Development",
+        "description": "Modern websites built around your digital presence.",
+        "price": "SAR — 2,460"
+      },
+      "payment": {
+        "category": "Fintech & Payments",
+        "title": "Payment Gateway Integration",
+        "description": "Connect your platform with payment infrastructure.",
+        "price": "SAR — 1,840"
+      },
+      "zatca": {
+        "category": "Integrations & Compliance",
+        "title": "ZATCA Phase 2 & Fatoora Integration",
+        "description": "Discuss Saudi-focused invoicing and compliance needs.",
+        "price": "SAR — 2,690"
+      },
+      "pentest": {
+        "category": "Cybersecurity",
+        "title": "Web Application Penetration Testing",
+        "description": "Assess your application and identify security weaknesses.",
+        "price": "SAR — 2,925"
+      },
+      "managedSecurity": {
+        "category": "Cybersecurity",
+        "title": "Managed Security Operations",
+        "description": "Explore ongoing monitoring and security support.",
+        "price": "SAR — 2,090"
+      }
+    }
+  },
+  "HowItWorks": {
+    "heading": "From first click to live in four simple steps.",
+    "stepLabel": "[ STEP {number} ]",
+    "steps": {
+      "choose": {
+        "title": "Choose a solution",
+        "description": "Browse 88 products and services across six core areas, or describe what you need built."
+      },
+      "talk": {
+        "title": "Talk to an expert",
+        "description": "Get a free consultation and a fixed quote in SAR, scoped to your business."
+      },
+      "pay": {
+        "title": "Pay securely",
+        "description": "Check out with mada, Apple Pay, Visa or Mastercard, or split the cost with Tabby."
+      },
+      "delivery": {
+        "title": "Get instant delivery",
+        "description": "License keys, downloads and a ZATCA-compliant invoice arrive in your inbox."
+      }
+    }
+  },
+  "Trust": {
+    "heading": "Enterprise-grade. Built for Saudi Arabia and beyond.",
+    "description": "Every engagement comes with the compliance, security and support standards that regulated businesses in the region expect.",
+    "secureCheckout": "Secure checkout",
+    "items": {
+      "01": {
+        "title": "24/7 dedicated enterprise IT support",
+        "description": "A dedicated team on call around the clock, with ticketed support and clear response times."
+      },
+      "02": {
+        "title": "ZATCA Phase 2 compliant solutions",
+        "description": "A dedicated team on call around the clock, with ticketed support and clear response times."
+      },
+      "03": {
+        "title": "PCI DSS certified security standards",
+        "description": "A dedicated team on call around the clock, with ticketed support and clear response times."
+      },
+      "04": {
+        "title": "Dependable SLA uptime guarantee",
+        "description": "A dedicated team on call around the clock, with ticketed support and clear response times."
+      }
+    }
+  },
+  "Faq": {
+    "heading": "Frequently asked questions and answers",
+    "description": "All you need to know about licensing, delivery, and payment options for our digital products and services.",
+    "card": {
+      "title": "Still have questions?",
+      "description": "Talk to our team on WhatsApp or by email and we’ll help you pick the right solution.",
+      "button": "Chat on WhatsApp"
+    },
+    "items": {
+      "sourceCode": {
+        "question": "Do I receive the full source code?",
+        "answer": "Yes, for products sold with source code. You receive the files, your license key and setup notes by email right after payment."
+      },
+      "delivery": {
+        "question": "How are licenses and downloads delivered?",
+        "answer": "Everything is sent to your inbox right after payment: your license keys, download links and a ZATCA-compliant invoice. If anything doesn’t arrive, our team will resend it."
+      },
+      "payment": {
+        "question": "Which payment methods do you accept?",
+        "answer": "You can pay with mada, Apple Pay, Visa or Mastercard, or split the cost with Tabby. All payments are processed through a secure checkout."
+      },
+      "customize": {
+        "question": "Can you customize a product for my business?",
+        "answer": "Yes. Tell us about your business goals and technical requirements, and our team will review them and send you a fixed quote in SAR, scoped to your needs."
+      },
+      "zatca": {
+        "question": "Are your invoices ZATCA-compliant?",
+        "answer": "Yes. Every invoice we issue follows ZATCA requirements, and we also offer ZATCA Phase 2 and Fatoora integration for your own systems."
+      },
+      "refund": {
+        "question": "What is your refund policy?",
+        "answer": "Because digital products are delivered instantly, refunds are reviewed case by case. If something doesn’t work as described, contact our team and we’ll fix it or arrange a refund where it applies."
+      }
+    }
+  }
+}

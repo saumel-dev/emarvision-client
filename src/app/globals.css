@@ -1,26 +1,81 @@
 @import "tailwindcss";
+@import "@heroui/styles";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* Tailwind class names -> font variables.
+   "inline" makes Tailwind read the variable at runtime,
+   so changing the language changes the font automatically. */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--app-body-font);
+  --font-heading: var(--app-heading-font);
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Brand colors from Figma. Use as bg-brand, text-brand, bg-ink ... */
+@theme {
+  --color-brand: #e85002;
+  --color-ink: #170a02;
+}
+
+/* Default fonts (English, Indonesian) */
+:root {
+  --app-body-font: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --app-heading-font: var(--font-fk), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Each language swaps both fonts to its own script font */
+html[lang="ar"] {
+  --app-body-font: var(--font-arabic), ui-sans-serif, system-ui, sans-serif;
+  --app-heading-font: var(--font-arabic), ui-sans-serif, system-ui, sans-serif;
+}
+
+html[lang="bn"] {
+  --app-body-font: var(--font-bengali), ui-sans-serif, system-ui, sans-serif;
+  --app-heading-font: var(--font-bengali), ui-sans-serif, system-ui, sans-serif;
+}
+
+html[lang="hi"] {
+  --app-body-font: var(--font-devanagari), ui-sans-serif, system-ui, sans-serif;
+  --app-heading-font: var(--font-devanagari), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--app-body-font);
+}
+
+/* Heading letter spacing (-4% in Figma).
+   Switched off for Arabic, Bangla and Hindi because it breaks their letters. */
+.heading-tracking {
+  letter-spacing: -0.04em;
+}
+html[lang="ar"] .heading-tracking,
+html[lang="bn"] .heading-tracking,
+html[lang="hi"] .heading-tracking {
+  letter-spacing: normal;
+}
+
+/* Hero background: dark brown at the top, orange glow rising from the bottom center.
+   The color stops were measured from the Figma screenshot. */
+.hero-glow {
+  background-color: #170a02;
+  background-image: radial-gradient(
+    166% 100% at 50% 100%,
+    #dd4802 0%,
+    #d34502 10%,
+    #b93d02 20%,
+    #963202 30%,
+    #702602 40%,
+    #501c02 50%,
+    #391502 60%,
+    #280f02 70%,
+    #1f0d02 80%,
+    #170a02 100%
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stats-card {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
 }

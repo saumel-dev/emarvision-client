@@ -1,0 +1,18 @@
+{
+  "Navbar": {
+    "solutions": "Solutions",
+    "categories": "Categories",
+    "howItWorks": "How It Works",
+    "faq": "FAQ",
+    "requestConsultation": "Request Consultation"
+  },
+  "Hero": {
+    "badge": "ZATCA PHASE 2 READY • BUILT FOR MENA",
+    "titleLine1": "হেডা digital service",
+    "titleLine2": "your business needs,",
+    "titleLine3": "in one place.",
+    "subtitle": "88 ready-to-deploy products and expert IT services, from websites and fintech to cybersecurity and hosting. Priced in SAR, delivered digitally, supported 24/7.",
+    "exploreSolutions": "Explore Solutions",
+    "requestConsultation": "Request Consultation"
+  }
+}
