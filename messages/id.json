@@ -1,21 +1,219 @@
 {
-  "Home": {
-    "title": "Selamat datang di layanan kami",
-    "subtitle": "Semua kebutuhan bisnis Anda, di satu tempat."
-  },
   "Hero": {
-    "title": "Kembangkan bisnis Anda bersama kami",
-    "subtitle": "Otomatisasi bisnis, perizinan, dan solusi WhatsApp, semuanya di satu tempat.",
-    "button": "Mulai sekarang"
+    "badge": "Siap ZATCA Fase 2 · Dibangun untuk MENA",
+    "title": "Setiap <highlight>layanan digital</highlight> yang dibutuhkan bisnis Anda, dalam satu tempat.",
+    "description": "88 produk siap pakai dan layanan IT ahli, dari situs web dan fintech hingga keamanan siber dan hosting. Harga dalam SAR, dikirim secara digital, dukungan 24/7.",
+    "exploreCta": "Jelajahi solusi",
+    "requestCta": "Minta konsultasi"
   },
   "Navbar": {
-    "home": "Beranda",
-    "products": "Produk",
-    "services": "Layanan",
-    "about": "Tentang Kami",
-    "contact": "Hubungi Kami",
-    "logIn": "Masuk",
-    "signUp": "Daftar",
-    "menu": "Buka menu"
+    "solutions": "Solusi",
+    "categories": "Kategori",
+    "howItWorks": "Cara kerja",
+    "faq": "FAQ",
+    "requestConsultation": "Minta konsultasi",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "language": "Ganti bahasa"
+  },
+  "Stats": {
+    "productsValue": "88",
+    "productsLabel": "Produk & layanan digital",
+    "areasValue": "06",
+    "areasLabel": "Bidang layanan utama",
+    "languagesValue": "05",
+    "languagesLabel": "Bahasa, termasuk Arab (RTL)",
+    "supportValue": "24/7",
+    "supportLabel": "Dukungan IT enterprise"
+  },
+  "Services": {
+    "heading": "Satu tempat untuk setiap kebutuhan digital.",
+    "description": "Dari situs web dan perdagangan hingga keamanan, fintech, dan infrastruktur. Temukan titik awal yang tepat untuk bisnis Anda.",
+    "explore": "Jelajahi",
+    "items": {
+      "01": {
+        "title": "Aplikasi Web, Seluler & Desktop",
+        "description": "Aplikasi web, React, Next.js, WordPress; aplikasi Android, alat desktop."
+      },
+      "02": {
+        "title": "E-commerce & Ritel",
+        "description": "Toko online, POS, dan marketplace multi-vendor."
+      },
+      "03": {
+        "title": "Fintech & Pembayaran",
+        "description": "Gerbang pembayaran, dompet digital, dan fintech."
+      },
+      "04": {
+        "title": "Perangkat Lunak Bisnis & Tim",
+        "description": "Alat tim, SaaS, dan sistem bisnis."
+      },
+      "05": {
+        "title": "Pusat Data & Hosting",
+        "description": "Server, hosting cloud, pencadangan, dan infrastruktur terkelola."
+      },
+      "06": {
+        "title": "Layanan & Konsultasi IT",
+        "description": "Migrasi cloud, hosting, dan infrastruktur."
+      },
+      "07": {
+        "title": "Media & Pemasaran",
+        "description": "Media, pemasaran, dan optimasi berbasis AI."
+      },
+      "08": {
+        "title": "Keamanan Siber",
+        "description": "Asesmen, pengujian, perlindungan, dan kepatuhan."
+      },
+      "09": {
+        "title": "Integrasi & Kepatuhan",
+        "description": "Integrasi pihak ketiga, ZATCA, dan Fatoora."
+      }
+    }
+  },
+  "Consultation": {
+    "heading": "Belum yakin solusi terbaik untuk kebutuhan Anda?",
+    "description": "Ceritakan kepada kami tentang bisnis, tujuan, atau kebutuhan teknis Anda. Tim kami dapat membantu Anda menemukan solusi yang tepat dari katalog kami.",
+    "sideLine1": "Mulai dengan percakapan.",
+    "sideLine2": "Temukan jalan ke depan yang lebih jelas.",
+    "button": "Bicara dengan tim kami",
+    "steps": {
+      "share": {
+        "title": "Sampaikan kebutuhan Anda kepada tim kami.",
+        "description": "Bagikan tujuan bisnis atau kebutuhan teknis Anda."
+      },
+      "recommend": {
+        "title": "Dapatkan Rekomendasi yang Tepat",
+        "description": "Spesialis kami meninjau kebutuhan Anda dan menyarankan produk serta layanan yang tepat."
+      },
+      "forward": {
+        "title": "Melangkah Maju dengan Percaya Diri",
+        "description": "Mulai dengan rencana yang jelas, jadwal pengiriman, dan dukungan berkelanjutan."
+      }
+    }
+  },
+  "Solutions": {
+    "heading": "Standar enterprise. Dibangun untuk Arab Saudi dan sekitarnya.",
+    "description": "Setiap kerja sama disertai standar kepatuhan, keamanan, dan dukungan yang diharapkan bisnis teregulasi di kawasan ini.",
+    "priceNote": "Harga mulai dari · harga katalog menyusul",
+    "cta": "Tanya tentang solusi ini",
+    "prev": "Solusi sebelumnya",
+    "next": "Solusi berikutnya",
+    "items": {
+      "webApp": {
+        "category": "Web & Situs Web",
+        "title": "Pengembangan Aplikasi Web Kustom",
+        "description": "Aplikasi web yang dibuat khusus sesuai kebutuhan bisnis Anda.",
+        "price": "SAR — 2.050"
+      },
+      "reactNext": {
+        "category": "Web & Situs Web",
+        "title": "Pengembangan Situs Web React & Next.js",
+        "description": "Situs web modern yang dirancang untuk kehadiran digital Anda.",
+        "price": "SAR — 2.460"
+      },
+      "payment": {
+        "category": "Fintech & Pembayaran",
+        "title": "Integrasi Gerbang Pembayaran",
+        "description": "Hubungkan platform Anda dengan infrastruktur pembayaran.",
+        "price": "SAR — 1.840"
+      },
+      "zatca": {
+        "category": "Integrasi & Kepatuhan",
+        "title": "Integrasi ZATCA Fase 2 & Fatoora",
+        "description": "Diskusikan kebutuhan faktur dan kepatuhan yang berfokus pada Arab Saudi.",
+        "price": "SAR — 2.690"
+      },
+      "pentest": {
+        "category": "Keamanan Siber",
+        "title": "Uji Penetrasi Aplikasi Web",
+        "description": "Nilai aplikasi Anda dan identifikasi celah keamanannya.",
+        "price": "SAR — 2.925"
+      },
+      "managedSecurity": {
+        "category": "Keamanan Siber",
+        "title": "Operasi Keamanan Terkelola",
+        "description": "Jelajahi pemantauan berkelanjutan dan dukungan keamanan.",
+        "price": "SAR — 2.090"
+      }
+    }
+  },
+  "HowItWorks": {
+    "heading": "Dari klik pertama hingga tayang dalam empat langkah mudah.",
+    "stepLabel": "[ LANGKAH {number} ]",
+    "steps": {
+      "choose": {
+        "title": "Pilih solusi",
+        "description": "Jelajahi 88 produk dan layanan di enam bidang utama, atau jelaskan apa yang ingin Anda bangun."
+      },
+      "talk": {
+        "title": "Bicara dengan ahli",
+        "description": "Dapatkan konsultasi gratis dan penawaran harga tetap dalam SAR, sesuai lingkup bisnis Anda."
+      },
+      "pay": {
+        "title": "Bayar dengan aman",
+        "description": "Checkout dengan mada, Apple Pay, Visa, atau Mastercard, atau bagi biaya dengan Tabby."
+      },
+      "delivery": {
+        "title": "Terima pengiriman instan",
+        "description": "Kunci lisensi, unduhan, dan faktur sesuai ZATCA masuk ke kotak masuk Anda."
+      }
+    }
+  },
+  "Trust": {
+    "heading": "Standar enterprise. Dibangun untuk Arab Saudi dan sekitarnya.",
+    "description": "Setiap kerja sama disertai standar kepatuhan, keamanan, dan dukungan yang diharapkan bisnis teregulasi di kawasan ini.",
+    "secureCheckout": "Checkout aman",
+    "items": {
+      "01": {
+        "title": "Dukungan IT enterprise khusus 24/7",
+        "description": "Tim khusus yang siaga sepanjang waktu, dengan dukungan berbasis tiket dan waktu respons yang jelas."
+      },
+      "02": {
+        "title": "Solusi sesuai ZATCA Fase 2",
+        "description": "Tim khusus yang siaga sepanjang waktu, dengan dukungan berbasis tiket dan waktu respons yang jelas."
+      },
+      "03": {
+        "title": "Standar keamanan bersertifikat PCI DSS",
+        "description": "Tim khusus yang siaga sepanjang waktu, dengan dukungan berbasis tiket dan waktu respons yang jelas."
+      },
+      "04": {
+        "title": "Jaminan uptime SLA yang andal",
+        "description": "Tim khusus yang siaga sepanjang waktu, dengan dukungan berbasis tiket dan waktu respons yang jelas."
+      }
+    }
+  },
+  "Faq": {
+    "heading": "Pertanyaan yang sering diajukan beserta jawabannya",
+    "description": "Semua yang perlu Anda ketahui tentang lisensi, pengiriman, dan opsi pembayaran untuk produk dan layanan digital kami.",
+    "card": {
+      "title": "Masih ada pertanyaan?",
+      "description": "Bicara dengan tim kami lewat WhatsApp atau email, dan kami akan membantu Anda memilih solusi yang tepat.",
+      "button": "Chat via WhatsApp"
+    },
+    "items": {
+      "sourceCode": {
+        "question": "Apakah saya menerima kode sumber lengkap?",
+        "answer": "Ya, untuk produk yang dijual beserta kode sumber. Anda akan menerima berkas, kunci lisensi, dan catatan pengaturan melalui email segera setelah pembayaran."
+      },
+      "delivery": {
+        "question": "Bagaimana lisensi dan unduhan dikirimkan?",
+        "answer": "Semuanya dikirim ke kotak masuk Anda segera setelah pembayaran: kunci lisensi, tautan unduhan, dan faktur sesuai ZATCA. Jika ada yang belum diterima, tim kami akan mengirimkannya kembali."
+      },
+      "payment": {
+        "question": "Metode pembayaran apa saja yang Anda terima?",
+        "answer": "Anda dapat membayar dengan mada, Apple Pay, Visa, atau Mastercard, atau membagi biaya dengan Tabby. Semua pembayaran diproses melalui checkout yang aman."
+      },
+      "customize": {
+        "question": "Apakah Anda bisa menyesuaikan produk untuk bisnis saya?",
+        "answer": "Ya. Ceritakan tujuan bisnis dan kebutuhan teknis Anda, lalu tim kami akan meninjaunya dan mengirimkan penawaran harga tetap dalam SAR sesuai kebutuhan Anda."
+      },
+      "zatca": {
+        "question": "Apakah faktur Anda sesuai dengan ZATCA?",
+        "answer": "Ya. Setiap faktur yang kami terbitkan mengikuti persyaratan ZATCA, dan kami juga menyediakan integrasi ZATCA Fase 2 dan Fatoora untuk sistem Anda sendiri."
+      },
+      "refund": {
+        "question": "Bagaimana kebijakan pengembalian dana Anda?",
+        "answer": "Karena produk digital dikirim secara instan, pengembalian dana ditinjau kasus per kasus. Jika ada yang tidak berfungsi sesuai deskripsi, hubungi tim kami dan kami akan memperbaikinya atau mengatur pengembalian dana jika berlaku."
+      }
+    }
   }
 }
