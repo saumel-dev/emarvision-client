@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import * as motion from "motion/react-client";
 
 // Card ids. They are also the icon file names:
 // public/assets/payment/01.svg ... 04.svg
@@ -20,7 +21,7 @@ export default function Trust() {
   const t = useTranslations("Trust");
 
   return (
-    <section className="bg-[#0C0907] px-5 pt-16 pb-20 lg:px-10 lg:pt-20 lg:pb-24 xl:px-20">
+    <section className="bg-[#090710] px-5 pt-16 pb-20 lg:px-10 lg:pt-20 lg:pb-24 xl:px-20">
       <div className="mx-auto max-w-[1284px]">
         {/* Heading + description */}
         <header className="text-center">
@@ -34,8 +35,27 @@ export default function Trust() {
 
         {/* Cards: 1 column on phones, 2 on tablets, 4 on large screens */}
         <ul className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-2 lg:mt-16 lg:grid-cols-4">
-          {items.map((id) => (
-            <li key={id} className="rounded-xl bg-[#16110D] p-6">
+          {items.map((id, i) => (
+            <motion.li
+              key={id}
+              // Fade up when scrolled into view. Cards appear left to right.
+              initial={{ opacity: 0, y: 28 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "0px 0px -80px 0px" }}
+              transition={{
+                duration: 0.6,
+                ease: [0.22, 1, 0.36, 1],
+                delay: (i % 4) * 0.1,
+              }}
+              // "isolate" keeps the glow behind the text but above the card color
+              className="trust-card group relative isolate overflow-hidden rounded-xl border border-white/5 bg-[#241A38] p-[30px] transition-colors duration-300 hover:border-brand-light/25 lg:min-h-[275px]"
+            >
+              {/* Purple glow behind the icon (a blurred circle, like Figma's Ellipse) */}
+              <span
+                aria-hidden="true"
+                className="pointer-events-none absolute -start-8 -top-11 -z-10 size-[150px] rounded-full bg-brand/40 blur-[22px] transition-colors duration-500 group-hover:bg-brand/60"
+              />
+
               <Image
                 src={`/assets/payment/${id}.svg`}
                 alt=""
@@ -48,10 +68,10 @@ export default function Trust() {
                 {t(`items.${id}.title`)}
               </h3>
 
-              <p className="mt-2 text-[15px] leading-[22px] text-white/70">
+              <p className="mt-2.5 text-[15px] leading-[22px] text-white/70">
                 {t(`items.${id}.description`)}
               </p>
-            </li>
+            </motion.li>
           ))}
         </ul>
 

@@ -96,6 +96,7 @@ html[dir="rtl"] .text-gradient-brand {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .stats-card,
   .service-card,
   .solution-card {
@@ -111,4 +112,16 @@ html[dir="rtl"] .text-gradient-brand {
   background-image: linear-gradient(to bottom,
       #633ee9 0%,
       rgba(56, 35, 131, 0) 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stats-card,
+  .service-card,
+  .solution-card,
+  .trust-card,
+  .faq-item {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
 }
