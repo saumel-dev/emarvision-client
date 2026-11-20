@@ -130,7 +130,7 @@ export default function Footer() {
       </div>
 
       {/* Dark band */}
-      <div className="bg-[#270F00]">
+      <div className="bg-[#1A1036]">
         {/* The big wordmark. It is full width, and the top of it is cut off by the band edge. */}
         <div className="relative aspect-[1444/128] w-full overflow-hidden">
           <Image
