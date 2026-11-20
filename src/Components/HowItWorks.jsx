@@ -31,7 +31,7 @@ export default function HowItWorks() {
   const t = useTranslations("HowItWorks");
 
   return (
-    <section className="overflow-hidden bg-[#090710] px-5 pt-16 pb-20 lg:px-10 lg:pt-20 lg:pb-24 xl:px-20">
+    <section id="how-it-works" className="overflow-hidden bg-[#090710] px-5 pt-16 pb-20 lg:px-10 lg:pt-20 lg:pb-24 xl:px-20">
       <div className="mx-auto max-w-[1284px]">
         {/* Heading */}
         <h2 className="heading-tracking mx-auto max-w-[520px] text-center font-heading text-[32px] leading-9 font-normal text-balance text-white lg:text-5xl lg:leading-[56px]">
