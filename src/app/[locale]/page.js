@@ -20,8 +20,10 @@ export default async function HomePage({ params }) {
       <Hero></Hero>
       <Stats></Stats>
       <Services></Services>
-      <Consultation></Consultation>
-      <Solutions></Solutions>
+      <div className="purple-fade">
+        <Consultation />
+        <Solutions />
+      </div>
       <HowItWorks></HowItWorks>
       <Trust></Trust>
       <Faq></Faq>

@@ -48,6 +48,7 @@ body {
 .heading-tracking {
   letter-spacing: -0.04em;
 }
+
 html[lang="ar"] .heading-tracking,
 html[lang="bn"] .heading-tracking,
 html[lang="hi"] .heading-tracking {
@@ -58,52 +59,56 @@ html[lang="hi"] .heading-tracking {
    The color stops were measured from the Figma screenshot. */
 .hero-glow {
   background-color: #100b22;
-  background-image: radial-gradient(
-    166% 100% at 50% 100%,
-    #5a37db 0%,
-    #5836d6 10%,
-    #5232c8 20%,
-    #4a2eb3 30%,
-    #40289a 40%,
-    #35217f 50%,
-    #2a1b63 60%,
-    #20154a 70%,
-    #181035 80%,
-    #120c27 90%,
-    #100b22 100%
-  );
+  background-image: radial-gradient(166% 100% at 50% 100%,
+      #5a37db 0%,
+      #5836d6 10%,
+      #5232c8 20%,
+      #4a2eb3 30%,
+      #40289a 40%,
+      #35217f 50%,
+      #2a1b63 60%,
+      #20154a 70%,
+      #181035 80%,
+      #120c27 90%,
+      #100b22 100%);
 }
 
 /* Gradient text for the highlighted words in the hero heading */
 .text-gradient-brand {
-  background-image: linear-gradient(
-    90deg,
-    #481de4 0%,
-    #4e24e5 25%,
-    #ac96f4 50%,
-    #8f74ef 75%,
-    #633ee9 100%
-  );
+  background-image: linear-gradient(90deg,
+      #481de4 0%,
+      #4e24e5 25%,
+      #ac96f4 50%,
+      #8f74ef 75%,
+      #633ee9 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
+
 html[dir="rtl"] .text-gradient-brand {
-  background-image: linear-gradient(
-    270deg,
-    #481de4 0%,
-    #4e24e5 25%,
-    #ac96f4 50%,
-    #8f74ef 75%,
-    #633ee9 100%
-  );
+  background-image: linear-gradient(270deg,
+      #481de4 0%,
+      #4e24e5 25%,
+      #ac96f4 50%,
+      #8f74ef 75%,
+      #633ee9 100%);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .stats-card,
-  .service-card {
+  .service-card,
+  .solution-card {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
   }
+}
+
+/* One gradient behind both the Consultation and Solutions sections */
+.purple-fade {
+  background-color: #090710;
+  background-image: linear-gradient(to bottom,
+      #633ee9 0%,
+      rgba(56, 35, 131, 0) 100%);
 }

@@ -8,16 +8,25 @@ const steps = [
   { key: "forward", icon: "/assets/rocket.svg" },
 ];
 
-// The orange dotted arrow for the white button. It mirrors itself in right-to-left languages.
-function DotIconOrange() {
+// The dotted arrow for the white button. The SVG is used as a mask,
+// so it always takes the brand color, whatever color the file itself has.
+// It mirrors itself in right-to-left languages.
+function DotIconBrand() {
+  const mask = "url(/assets/dot-btn.svg)";
   return (
-    <Image
-      src="/assets/dot-btn-orange.svg"
-      alt=""
-      width={20}
-      height={20}
+    <span
       aria-hidden="true"
-      className="rtl:-scale-x-100"
+      className="block size-5 shrink-0 bg-brand rtl:-scale-x-100"
+      style={{
+        maskImage: mask,
+        WebkitMaskImage: mask,
+        maskRepeat: "no-repeat",
+        WebkitMaskRepeat: "no-repeat",
+        maskPosition: "center",
+        WebkitMaskPosition: "center",
+        maskSize: "contain",
+        WebkitMaskSize: "contain",
+      }}
     />
   );
 }
@@ -26,7 +35,8 @@ export default function Consultation() {
   const t = useTranslations("Consultation");
 
   return (
-    <section className="bg-brand px-5 py-8 lg:px-10 lg:py-[100px] xl:px-20">
+    // No background here: the purple gradient comes from the wrapper in page.js
+    <section className="px-5 pt-8 lg:px-10 lg:pt-[100px] xl:px-20">
       <div className="mx-auto max-w-[1284px]">
         {/* Top row: heading + description on the left, short text + button on the right */}
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between lg:gap-10">
@@ -51,15 +61,15 @@ export default function Consultation() {
               className="mt-8 inline-flex h-12 items-center justify-center gap-3 rounded-[48px] bg-white px-7 font-mono text-base leading-[26px] text-brand uppercase transition hover:bg-white/90"
             >
               {t("button")}
-              <DotIconOrange />
+              <DotIconBrand />
             </a>
           </div>
         </div>
 
         {/* Steps.
             Phones: three boxes with a thin border, stacked.
-            Large screens: one wider band (#F45301) with three columns. */}
-        <ul className="mt-10 flex flex-col gap-8 lg:mt-[60px] lg:grid lg:grid-cols-3 lg:gap-8 lg:border-y lg:border-white/10 lg:bg-[#F45301] lg:px-10 lg:pt-16 lg:pb-22 xl:gap-x-[14.1%] xl:px-[10.3%]">
+            Large screens: one rounded solid band (#633EE9, 12px radius) with three columns. */}
+        <ul className="mt-10 flex flex-col gap-8 lg:mt-[60px] lg:grid lg:grid-cols-3 lg:gap-8 lg:rounded-xl lg:bg-brand lg:px-10 lg:pt-16 lg:pb-22 xl:gap-x-[14.1%] xl:px-[10.3%]">
           {steps.map((step) => (
             <li
               key={step.key}
