@@ -12,6 +12,7 @@ import {
 import { routing, rtlLocales } from "@/i18n/routing";
 import "../globals.css";
 import Navbar from "@/Components/Navbar";
+import Footer from "@/Components/Footer";
 
 // English / Indonesian fonts
 const geist = Geist({
@@ -78,6 +79,7 @@ export default async function LocaleLayout({ children, params }) {
         <NextIntlClientProvider>
           <Navbar />
           {children}
+          <Footer></Footer>
         </NextIntlClientProvider>
       </body>
     </html>

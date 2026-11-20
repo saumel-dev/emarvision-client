@@ -26,10 +26,7 @@ export default function Consultation() {
   const t = useTranslations("Consultation");
 
   return (
-    <section
-      id="contact"
-      className="bg-brand px-5 py-8 lg:px-10 lg:py-[100px] xl:px-20"
-    >
+    <section className="bg-brand px-5 py-8 lg:px-10 lg:py-[100px] xl:px-20">
       <div className="mx-auto max-w-[1284px]">
         {/* Top row: heading + description on the left, short text + button on the right */}
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between lg:gap-10">
@@ -48,9 +45,9 @@ export default function Consultation() {
               <span className="block">{t("sideLine2")}</span>
             </p>
 
-            {/* TODO: point this to the real contact page or form later */}
+            {/* Scrolls down to the contact form in the footer */}
             <a
-              href="#"
+              href="#contact"
               className="mt-8 inline-flex h-12 items-center justify-center gap-3 rounded-[48px] bg-white px-7 font-mono text-base leading-[26px] text-brand uppercase transition hover:bg-white/90"
             >
               {t("button")}

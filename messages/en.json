@@ -215,5 +215,59 @@
         "answer": "Because digital products are delivered instantly, refunds are reviewed case by case. If something doesn’t work as described, contact our team and we’ll fix it or arrange a refund where it applies."
       }
     }
+  },
+  "Footer": {
+    "badge": "Get in touch",
+    "heading": "Let’s build creative something together.",
+    "description": "Enterprise software, IT services and digital products for businesses across MENA. Priced in SAR, delivered digitally.",
+    "social": {
+      "x": "X",
+      "facebook": "Facebook",
+      "whatsapp": "WhatsApp"
+    },
+    "links": {
+      "solutions": "Solutions",
+      "categories": "Categories",
+      "howItWorks": "How it works",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "emailLabel": "Email",
+    "emailValue": "[Official email address]",
+    "phoneLabel": "Phone / WhatsApp",
+    "phoneValue": "[Official phone number]",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Jane Smith"
+      },
+      "company": {
+        "label": "Company name",
+        "placeholder": "Your company"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "jane@example.com"
+      },
+      "phone": {
+        "label": "Phone / WhatsApp",
+        "placeholder": "Country code + number"
+      },
+      "interest": {
+        "label": "What are you interested in?",
+        "placeholder": "Choose a category"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us about your goals or requirements…"
+      },
+      "submit": "Let's talk",
+      "terms": "By submitting, you agree to our <terms>Terms</terms> and <privacy>Privacy Policy</privacy>"
+    },
+    "copyright": "© {year} Emarvision. All rights reserved.",
+    "crVat": "CR No. XXXXXXXXXX · VAT No. 3XXXXXXXXXXXXX3",
+    "termsLink": "Terms & Conditions",
+    "privacyLink": "Privacy",
+    "refundLink": "Refund policy"
   }
 }
