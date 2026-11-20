@@ -1,9 +1,7 @@
 @import "tailwindcss";
 @import "@heroui/styles";
 
-/* Tailwind class names -> font variables.
-   "inline" makes Tailwind read the variable at runtime,
-   so changing the language changes the font automatically. */
+/* Tailwind class names -> font variables. */
 @theme inline {
   --font-sans: var(--app-body-font);
   --font-heading: var(--app-heading-font);
@@ -43,8 +41,7 @@ body {
   font-family: var(--app-body-font);
 }
 
-/* Heading letter spacing (-4% in Figma).
-   Switched off for Arabic, Bangla and Hindi because it breaks their letters. */
+/* Heading letter spacing (-4% in Figma). */
 .heading-tracking {
   letter-spacing: -0.04em;
 }
@@ -53,24 +50,6 @@ html[lang="ar"] .heading-tracking,
 html[lang="bn"] .heading-tracking,
 html[lang="hi"] .heading-tracking {
   letter-spacing: normal;
-}
-
-/* Hero background: dark brown at the top, orange glow rising from the bottom center.
-   The color stops were measured from the Figma screenshot. */
-.hero-glow {
-  background-color: #100b22;
-  background-image: radial-gradient(166% 100% at 50% 100%,
-      #5a37db 0%,
-      #5836d6 10%,
-      #5232c8 20%,
-      #4a2eb3 30%,
-      #40289a 40%,
-      #35217f 50%,
-      #2a1b63 60%,
-      #20154a 70%,
-      #181035 80%,
-      #120c27 90%,
-      #100b22 100%);
 }
 
 /* Gradient text for the highlighted words in the hero heading */
@@ -93,17 +72,6 @@ html[dir="rtl"] .text-gradient-brand {
       #ac96f4 50%,
       #8f74ef 75%,
       #633ee9 100%);
-}
-
-@media (prefers-reduced-motion: reduce) {
-
-  .stats-card,
-  .service-card,
-  .solution-card {
-    opacity: 1 !important;
-    transform: none !important;
-    transition: none !important;
-  }
 }
 
 /* One gradient behind both the Consultation and Solutions sections */

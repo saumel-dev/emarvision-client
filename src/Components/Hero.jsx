@@ -1,12 +1,6 @@
-
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import * as motion from "motion/react-client";
-import HeroGrid from "./HeroGrid";
-
-// Staircase shape of the grid.
-const DESKTOP_TOPS = [0, 0, 0, 1, 1, 3, 2, 2, 2, 2, 2, 3, 3, 2, 1, 1, 0, 0, 0];
-const MOBILE_TOPS = [0, 2, 1, 1, 1, 1, 1, 2, 2, 1, 0];
 
 // Entrance animation for the content.
 const containerVariants = {
@@ -20,17 +14,11 @@ const containerVariants = {
 };
 
 const itemVariants = {
-  hidden: {
-    opacity: 0,
-    y: 18,
-  },
+  hidden: { opacity: 0, y: 18 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.6,
-      ease: [0.22, 1, 0.36, 1],
-    },
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
   },
 };
 
@@ -55,33 +43,22 @@ export default function Hero() {
   const t = useTranslations("Hero");
 
   return (
-    <section className="hero-glow relative isolate flex flex-col items-center overflow-hidden px-5 pt-36 pb-40 text-center lg:min-h-svh lg:pt-44 lg:pb-72">
+    <section
+      style={{ backgroundImage: "url('/assets/hero-bg.png')" }}
+      className="relative isolate flex flex-col items-center overflow-hidden bg-[#100b22] bg-cover bg-bottom bg-no-repeat px-5 pt-36 pb-40 text-center lg:min-h-svh lg:pt-44 lg:pb-72"
+    >
 
-      {/* Background grid */}
-      <HeroGrid
-        cell={37.5}
-        tops={MOBILE_TOPS}
-        height={111}
-        className="md:hidden"
-      />
-
-      <HeroGrid
-        cell={75}
-        tops={DESKTOP_TOPS}
-        height={287}
-        className="hidden md:block"
-      />
-
+      {/* Main Content */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="relative z-10 flex w-full max-w-[695px] flex-col items-center"
+        className="relative z-10 flex w-full max-w-[900px] flex-col items-center"
       >
-        {/* Badge */}
+        {/* Badge (Background box removed) */}
         <motion.p
           variants={itemVariants}
-          className="inline-flex rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 font-mono text-[13px] leading-[22px] tracking-[0.08em] uppercase text-white/75 shadow-[0_4px_24px_rgba(255,255,255,0.04)] backdrop-blur-sm"
+          className="text-[16px] leading-[22px] tracking-[0.08em] uppercase text-white/70 "
         >
           {t("badge")}
         </motion.p>
@@ -89,15 +66,13 @@ export default function Hero() {
         {/* Heading */}
         <motion.h1
           variants={itemVariants}
-          className="heading-tracking mt-6 text-balance font-heading text-[44px] leading-[48px] font-normal text-white sm:text-[60px] sm:leading-[64px] lg:text-[76px] lg:leading-[80px]"
+          className="mt-6 text-[44px] leading-[48px] text-white sm:text-[60px] sm:leading-[64px] lg:text-[76px] lg:leading-[80px] max-w-3xl"
         >
-          {t.rich("title", {
-            highlight: (chunks) => (
-               <span className="text-gradient-brand box-decoration-clone">
-                {chunks}
-              </span>
-            ),
-          })}
+          Every{" "}
+          <span className="text-gradient-brand box-decoration-clone">
+            digital service
+          </span>{" "}
+          your business needs, in one place.
         </motion.h1>
 
         {/* Description */}

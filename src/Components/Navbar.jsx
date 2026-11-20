@@ -89,7 +89,7 @@ export default function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-50 border-b transition-colors duration-300 ${
         scrolled || menuOpen
-          ? "border-white/5 bg-[#170A02]/90 backdrop-blur-md"
+          ? "border-white/5 bg-[#100B22]/50 backdrop-blur-md"
           : "border-transparent bg-transparent"
       }`}
     >
