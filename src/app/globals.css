@@ -100,7 +100,8 @@ html[dir="rtl"] .text-gradient-brand {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .stats-card {
+  .stats-card,
+  .service-card {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
