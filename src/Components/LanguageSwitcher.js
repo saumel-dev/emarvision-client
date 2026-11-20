@@ -57,8 +57,8 @@ export default function LanguageSwitcher() {
         aria-label={t("language")}
         className={`inline-flex h-[34px] items-center gap-2 rounded-[48px] border px-3.5 font-mono text-sm uppercase transition-colors ${
           open
-            ? "border-brand/50 text-brand"
-            : "border-white/15 text-white hover:border-brand/40 hover:text-brand"
+            ? "border-brand/60 text-brand-light"
+            : "border-white/15 text-white hover:border-brand/60 hover:text-brand-light"
         }`}
       >
         {/* Globe */}
@@ -95,7 +95,7 @@ export default function LanguageSwitcher() {
       </button>
 
       {open && (
-        <ul className="absolute end-0 top-full z-50 mt-3 w-48 rounded-2xl border border-brand/20 bg-[#1F0D02] p-1.5 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.7)]">
+        <ul className="absolute end-0 top-full z-50 mt-3 w-48 rounded-2xl border border-brand/30 bg-[#16102B] p-1.5 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.7)]">
           {languages.map((l) => {
             const isActive = l.code === locale;
             return (
@@ -107,7 +107,7 @@ export default function LanguageSwitcher() {
                   aria-current={isActive ? "true" : undefined}
                   className={`flex w-full items-center justify-between gap-3 rounded-xl px-3 py-2.5 text-start text-sm transition-colors ${
                     isActive
-                      ? "bg-brand/15 text-brand"
+                      ? "bg-brand/20 text-brand-light"
                       : "text-white hover:bg-white/5"
                   }`}
                 >
@@ -120,7 +120,7 @@ export default function LanguageSwitcher() {
                   </span>
                   <span
                     className={`font-mono text-xs uppercase ${
-                      isActive ? "text-brand" : "text-white/40"
+                      isActive ? "text-brand-light" : "text-white/40"
                     }`}
                   >
                     {l.short}

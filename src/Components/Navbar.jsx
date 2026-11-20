@@ -12,6 +12,7 @@ const links = [
   { id: "categories", key: "categories" },
   { id: "how-it-works", key: "howItWorks" },
   { id: "faq", key: "faq" },
+  { id: "contact", key: "contact" }
 ];
 
 // The little dotted arrow. It mirrors itself in right-to-left languages.
@@ -80,7 +81,7 @@ export default function Navbar() {
   }, [menuOpen]);
 
   const itemClass = (id) =>
-    `font-mono text-sm uppercase leading-[26px] transition-colors hover:text-brand ${
+    ` text-sm uppercase leading-[26px] transition-colors hover:text-brand ${
       active === id ? "text-brand" : "text-white"
     }`;
 

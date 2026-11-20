@@ -93,7 +93,7 @@ export default function Hero() {
         >
           {t.rich("title", {
             highlight: (chunks) => (
-              <span className="box-decoration-clone bg-linear-to-r from-[#FFD864] to-[#E85002] bg-clip-text text-transparent rtl:bg-linear-to-l">
+               <span className="text-gradient-brand box-decoration-clone">
                 {chunks}
               </span>
             ),
@@ -119,7 +119,7 @@ export default function Hero() {
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.97 }}
             transition={{ type: "spring", stiffness: 400, damping: 25 }}
-            className={`${buttonBase} bg-brand shadow-[0_8px_28px_rgba(232,80,2,0.20)] hover:brightness-110`}
+            className={`${buttonBase} bg-brand shadow-[0_8px_28px_rgba(99,62,233,0.30)] hover:brightness-110`}
           >
             {t("exploreCta")}
             <DotIcon />
@@ -131,7 +131,7 @@ export default function Hero() {
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.97 }}
             transition={{ type: "spring", stiffness: 400, damping: 25 }}
-            className={`${buttonBase} border border-brand/60 bg-brand/15 hover:border-brand/80 hover:bg-brand/25`}
+            className={`${buttonBase} border border-brand/50 bg-linear-to-r from-brand/[0.22] to-brand/[0.03] hover:border-brand/80 hover:from-brand/[0.32] hover:to-brand/[0.1] rtl:bg-linear-to-l`}
           >
             {t("requestCta")}
             <DotIcon />

@@ -6,7 +6,7 @@
 // The middle entry of the list sits at the center of the page.
 
 function makeTile(cell) {
-  const svg = `<svg xmlns='http://www.w3.org/2000/svg' width='${cell}' height='${cell}' viewBox='0 0 ${cell} ${cell}'><path d='M0.5 0V${cell}M0 0.5H${cell}' stroke='#E85002' stroke-opacity='0.35' stroke-width='1' fill='none'/></svg>`;
+  const svg = `<svg xmlns='http://www.w3.org/2000/svg' width='${cell}' height='${cell}' viewBox='0 0 ${cell} ${cell}'><path d='M0.5 0V${cell}M0 0.5H${cell}' stroke='#633EE9' stroke-opacity='0.35' stroke-width='1' fill='none'/></svg>`;
   return `url("data:image/svg+xml,${encodeURIComponent(svg)}")`;
 }
 
