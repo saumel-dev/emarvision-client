@@ -1,3 +1,4 @@
+import Categories from "@/Components/Categories";
 import Consultation from "@/Components/Consultation";
 import Faq from "@/Components/Faq";
 import Hero from "@/Components/Hero";
@@ -25,6 +26,7 @@ export default async function HomePage({ params }) {
         <Solutions />
       </div>
       <HowItWorks></HowItWorks>
+      <Categories></Categories>
       <Trust></Trust>
       <Faq></Faq>
     </main>

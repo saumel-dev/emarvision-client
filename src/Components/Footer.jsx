@@ -32,8 +32,8 @@ export default function Footer() {
         <div className="mx-auto grid max-w-[1284px] grid-cols-1 lg:grid-cols-4 lg:gap-y-20">
           {/* Badge */}
           <div className="lg:col-start-1 lg:row-start-1">
-            <span className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-2 font-mono text-sm leading-4 text-[#E25A00] uppercase">
-              <span className="size-1.5 rounded-full bg-[#E25A00]" />
+            <span className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-2 font-mono text-sm leading-4 text-[#633EE9] uppercase">
+              <span className="size-1.5 rounded-full bg-[#633EE9]" />
               {t("badge")}
             </span>
           </div>

@@ -270,5 +270,375 @@
     "termsLink": "Terms & Conditions",
     "privacyLink": "Privacy",
     "refundLink": "Refund policy"
+  },
+  "Products": {
+    "items": {
+      "01": {
+        "title": "Custom Web Application Development",
+        "description": "Purpose-built web applications for your business requirements."
+      },
+      "02": {
+        "title": "React & Next.js Website Development",
+        "description": "Modern websites built around your digital presence."
+      },
+      "03": {
+        "title": "School or College Website",
+        "description": "A ready website for schools and colleges to share information with students and parents."
+      },
+      "04": {
+        "title": "E-learning Platform (WordPress)",
+        "description": "An online learning platform built on WordPress for courses and students."
+      },
+      "05": {
+        "title": "TempmailX — Temporary Email Service",
+        "description": "A disposable email service that keeps your real inbox free from spam."
+      },
+      "06": {
+        "title": "HostPro — Hosting & Domain Business Website",
+        "description": "A ready-made website for hosting and domain businesses to sell their services online."
+      },
+      "07": {
+        "title": "ClippingPath — Photo Editing & Background Removal Site",
+        "description": "A service website for photo editing and background removal businesses."
+      },
+      "08": {
+        "title": "TopUp — Game Gem & Voucher Top-Up Store",
+        "description": "A top-up store for selling game gems and vouchers online."
+      },
+      "09": {
+        "title": "Physiotherapy Clinic Website",
+        "description": "A professional website for physiotherapy clinics and their patients."
+      },
+      "10": {
+        "title": "XStore — Store Management",
+        "description": "Store management software to keep products, sales and stock organized."
+      },
+      "11": {
+        "title": "Cloth Store POS — Clothing Store Sales System",
+        "description": "A point-of-sale system built for clothing stores and their daily sales."
+      },
+      "12": {
+        "title": "Social Media Marketing Website 2.0",
+        "description": "A website for social media marketing agencies to present their services."
+      },
+      "13": {
+        "title": "TechFire — Agency & Software Company Management App",
+        "description": "A management app for agencies and software companies to run their work."
+      },
+      "14": {
+        "title": "TeamHub — Team Chat & Work Management",
+        "description": "Team chat and work management in one place for your staff."
+      },
+      "15": {
+        "title": "KarentPay — E-wallet Payment Gateway",
+        "description": "A payment gateway for e-wallet payments, built for fintech businesses."
+      },
+      "16": {
+        "title": "Monitorfly — Employee & Project Monitoring",
+        "description": "Monitor employees and projects with clear visibility into daily work."
+      },
+      "17": {
+        "title": "LiveChat Desk — Live Chat & Ticketing System",
+        "description": "Live chat and a ticketing system to support your customers."
+      },
+      "18": {
+        "title": "News Theme 1.0 — PHP News Portal",
+        "description": "A PHP news portal theme for publishing and managing articles."
+      },
+      "19": {
+        "title": "Newsroom AI — News Portal with AI Features",
+        "description": "A news portal with built-in AI features to speed up publishing."
+      },
+      "20": {
+        "title": "VisaCheck — Visa & Travel Document Processing Platform",
+        "description": "A platform for processing visa applications and travel documents."
+      },
+      "21": {
+        "title": "Conversion Rate Optimization Consulting",
+        "description": "Expert advice to help more of your visitors become customers."
+      },
+      "22": {
+        "title": "E-commerce Security & PCI DSS Compliance",
+        "description": "Secure your online store and prepare for PCI DSS compliance."
+      },
+      "23": {
+        "title": "Online Store Setup & Optimization",
+        "description": "Set up your online store and tune it for better performance and sales."
+      },
+      "24": {
+        "title": "Data Center Security & Access Control Design",
+        "description": "Design of physical security and access control for data centers."
+      },
+      "25": {
+        "title": "Shared Hosting Strategy & Migration Consulting",
+        "description": "Plan your shared hosting strategy and move to it smoothly."
+      },
+      "26": {
+        "title": "Data Center Power, Cooling & Efficiency Audit",
+        "description": "An audit of power, cooling and efficiency in your data center."
+      },
+      "27": {
+        "title": "Data Center Design & Build Consulting",
+        "description": "Consulting for designing and building a data center."
+      },
+      "28": {
+        "title": "Microsoft 365 & Google Workspace Management",
+        "description": "Setup and day-to-day management of Microsoft 365 and Google Workspace."
+      },
+      "29": {
+        "title": "Backup & Disaster Recovery Services",
+        "description": "Backup and recovery services to keep your business running after an outage."
+      },
+      "30": {
+        "title": "System Monitoring & Maintenance",
+        "description": "Ongoing system monitoring and maintenance to catch problems early."
+      },
+      "31": {
+        "title": "24/7 Remote IT Support & Helpdesk",
+        "description": "Remote IT support and a helpdesk available around the clock."
+      },
+      "32": {
+        "title": "Hourly Virtual Tech Director (vCIO/vCTO)",
+        "description": "Hire a virtual CIO or CTO by the hour for technology leadership."
+      },
+      "33": {
+        "title": "Business Continuity & Disaster Recovery Planning",
+        "description": "Plan how to keep your business running and recover quickly from disasters."
+      },
+      "34": {
+        "title": "Cybersecurity Standards Compliance Readiness",
+        "description": "Get ready to meet cybersecurity standards and compliance requirements."
+      },
+      "35": {
+        "title": "Cloud Migration & Architecture Consulting",
+        "description": "Guidance on moving to the cloud and designing the right architecture."
+      },
+      "36": {
+        "title": "IT Strategy & Digital Transformation Consulting",
+        "description": "Consulting on IT strategy and digital transformation for your business."
+      },
+      "37": {
+        "title": "Security Awareness Training",
+        "description": "Training that helps your team recognize and avoid security threats."
+      },
+      "38": {
+        "title": "Vulnerability Management Service",
+        "description": "A service to find, track and fix security weaknesses in your systems."
+      },
+      "39": {
+        "title": "Firewall & Network Security Management",
+        "description": "Management of firewalls and network security for your business."
+      },
+      "40": {
+        "title": "Managed Endpoint Security (EDR/MDR)",
+        "description": "Managed protection for your devices with endpoint detection and response."
+      },
+      "41": {
+        "title": "24/7 Managed Security Operations Center",
+        "description": "A managed security operations center watching your systems around the clock."
+      },
+      "42": {
+        "title": "Phishing & Social Engineering Exercises",
+        "description": "Test your team with realistic phishing and social engineering exercises."
+      },
+      "43": {
+        "title": "API Security Assessment",
+        "description": "Find security weaknesses in your APIs before attackers do."
+      },
+      "44": {
+        "title": "Cloud Security Assessment",
+        "description": "Review your cloud setup to find security risks and gaps."
+      },
+      "45": {
+        "title": "Network & Infrastructure Penetration Test",
+        "description": "Penetration testing for your networks and infrastructure."
+      },
+      "46": {
+        "title": "Mobile App Penetration Test",
+        "description": "Penetration testing to find security weaknesses in your mobile app."
+      },
+      "47": {
+        "title": "Web App Penetration Test",
+        "description": "Assess your web application and identify security weaknesses."
+      },
+      "48": {
+        "title": "Stripe Integration",
+        "description": "Accept online payments by integrating Stripe into your platform."
+      },
+      "49": {
+        "title": "Mamo Pay (UAE) Integration",
+        "description": "Integrate Mamo Pay to accept payments in the UAE."
+      },
+      "50": {
+        "title": "Mastercard MPGS Integration",
+        "description": "Connect your platform to Mastercard Payment Gateway Services (MPGS)."
+      },
+      "51": {
+        "title": "CyberSource Integration",
+        "description": "Integrate the CyberSource payment platform into your website."
+      },
+      "52": {
+        "title": "QR & Barcode Master — Android App",
+        "description": "An Android app for scanning and creating QR codes and barcodes."
+      },
+      "53": {
+        "title": "Multi Calendar — Android App",
+        "description": "An Android calendar app that supports multiple calendars."
+      },
+      "54": {
+        "title": "Bhara Khujun — Home & Property Rental Marketplace",
+        "description": "A marketplace for finding and listing homes and properties for rent."
+      },
+      "55": {
+        "title": "Scan2PC — Phone Barcode Scanner & Computer Receiver",
+        "description": "Turn your phone into a barcode scanner that sends scans to your computer."
+      },
+      "56": {
+        "title": "ChatCooker — AI Chat Platform",
+        "description": "An AI-powered chat platform for conversations and assistance."
+      },
+      "57": {
+        "title": "Inventory Manager — Laravel Inventory System",
+        "description": "A Laravel-based inventory system to track your stock and products."
+      },
+      "58": {
+        "title": "BlackWolf — PHP Online Store & Android Admin App",
+        "description": "A PHP online store with an Android admin app to manage it."
+      },
+      "59": {
+        "title": "CyberSource Payment Gateway for WooCommerce",
+        "description": "Accept payments in your WooCommerce store with the CyberSource gateway."
+      },
+      "60": {
+        "title": "My Wallet — Offline Personal Finance App",
+        "description": "A personal finance app that works offline to track your money."
+      },
+      "61": {
+        "title": "AI Keyboard Pro — Android Keyboard",
+        "description": "An Android keyboard with AI-powered writing help."
+      },
+      "62": {
+        "title": "ReviewX — Micro-Task & Review Platform",
+        "description": "A platform where users complete micro-tasks and write reviews."
+      },
+      "63": {
+        "title": "Orbit — Browser File Manager",
+        "description": "A file manager that runs right in your browser."
+      },
+      "64": {
+        "title": "CryptoX — Crypto Trading Platform",
+        "description": "A crypto trading platform for buying, selling and tracking assets."
+      },
+      "65": {
+        "title": "Barakah Markets — Multi-Vendor Marketplace",
+        "description": "A multi-vendor marketplace where many sellers can sell in one store."
+      },
+      "66": {
+        "title": "Bhumi Bonton — Land Share Calculation App",
+        "description": "An app for calculating and tracking shares of land."
+      },
+      "67": {
+        "title": "App Store & Google Play App Publishing Service",
+        "description": "Get your app published on the App Store and Google Play."
+      },
+      "68": {
+        "title": "Laravel Site Speed Testing & Improvement",
+        "description": "Test your Laravel site's speed and improve its performance."
+      },
+      "69": {
+        "title": "Payment Gateway Integration — mada, Apple Pay, Tabby & STC Pay",
+        "description": "Connect your platform with mada, Apple Pay, Tabby and STC Pay."
+      },
+      "70": {
+        "title": "ZATCA Phase 2 & Fatoora Integration",
+        "description": "Saudi-focused invoicing and integration requirements."
+      },
+      "71": {
+        "title": "Mawaeed — WordPress Booking System",
+        "description": "A WordPress booking system for appointments and reservations."
+      },
+      "72": {
+        "title": "Atelier — Next.js Portfolio Site",
+        "description": "A Next.js portfolio site to showcase your work."
+      },
+      "73": {
+        "title": "LaunchDeck — 12 Landing Page Templates",
+        "description": "12 landing page templates to launch your campaigns faster."
+      },
+      "74": {
+        "title": "PulseFit — Android & Wear OS Fitness App",
+        "description": "A fitness app for Android and Wear OS."
+      },
+      "75": {
+        "title": "Tawsil — Flutter Delivery App Package",
+        "description": "A Flutter app package for delivery businesses."
+      },
+      "76": {
+        "title": "Rassid POS — Offline Android Sales System",
+        "description": "An offline Android sales system for shops."
+      },
+      "77": {
+        "title": "TenantKit — Laravel Multi-Tenant SaaS Template",
+        "description": "A Laravel multi-tenant SaaS template to launch your own software service."
+      },
+      "78": {
+        "title": "Souq — Laravel Multi-Vendor Store",
+        "description": "A Laravel multi-vendor store for running an online marketplace."
+      },
+      "79": {
+        "title": "Meta Pixel & Conversions API Gateway for WooCommerce",
+        "description": "Connect Meta Pixel and the Conversions API to your WooCommerce store."
+      },
+      "80": {
+        "title": "WhatsApp Cloud API Package",
+        "description": "A package for connecting your business to the WhatsApp Cloud API."
+      },
+      "81": {
+        "title": "ZATCA Phase 2 E-Invoicing Engine for Laravel",
+        "description": "An e-invoicing engine for Laravel that follows ZATCA Phase 2."
+      },
+      "82": {
+        "title": "Emarvision Property Management System",
+        "description": "A property management system built by Emarvision."
+      },
+      "83": {
+        "title": "TURN Server Setup on DigitalOcean",
+        "description": "Set up a TURN server on DigitalOcean for real-time calls."
+      },
+      "84": {
+        "title": "WebViewPro — Android WebView App with C++ Encryption",
+        "description": "An Android WebView app with C++ encryption."
+      },
+      "85": {
+        "title": "Pilot Chat — Real-Time Messaging & Calling Solution",
+        "description": "A real-time messaging and calling solution."
+      },
+      "86": {
+        "title": "SwiftPOS PHP — Retail & E-commerce Software",
+        "description": "Retail and e-commerce software in PHP for running your business."
+      },
+      "87": {
+        "title": "OmniSync Pro — Laravel Store & Android POS ERP",
+        "description": "A Laravel store with an Android POS app and ERP features."
+      },
+      "88": {
+        "title": "All-in-One E-commerce & POS Engine",
+        "description": "An all-in-one engine for e-commerce and point-of-sale."
+      }
+    }
+  },
+  "Categories": {
+    "heading": "Explore our products & services",
+    "searchPlaceholder": "Search products...",
+    "searchLabel": "Search products",
+    "clearSearch": "Clear search",
+    "categoriesLabel": "Product categories",
+    "noResults": "No products found",
+    "noResultsHint": "Try searching for something else or pick a different category.",
+    "price": "SAR — {amount}",
+    "priceNote": "Starting price · catalog price pending",
+    "requestDetails": "Request Details",
+    "showing": "Showing {shown} of {total} products",
+    "loadMore": "Load More"
   }
 }

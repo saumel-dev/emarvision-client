@@ -48,6 +48,36 @@ export default function Hero() {
       className="relative isolate flex flex-col items-center overflow-hidden bg-[#100b22] bg-cover bg-bottom bg-no-repeat px-5 pt-36 pb-40 text-center lg:min-h-svh lg:pt-44 lg:pb-72"
     >
 
+      {/* Decorative Grid Overlay */}
+      <div
+        aria-hidden="true"
+        className="
+    pointer-events-none
+    absolute
+    inset-x-0
+    bottom-[-45px]
+    z-0
+    w-full
+    aspect-[1440/287]
+    bg-[#633EE9]
+    opacity-70
+  "
+        style={{
+          WebkitMaskImage: "url('/assets/hero-grid.png')",
+          maskImage: "url('/assets/hero-grid.png')",
+
+          WebkitMaskRepeat: "no-repeat",
+          maskRepeat: "no-repeat",
+
+          WebkitMaskPosition: "center bottom",
+          maskPosition: "center bottom",
+
+          WebkitMaskSize: "100% 100%",
+          maskSize: "100% 100%",
+        }}
+      />
+
+
       {/* Main Content */}
       <motion.div
         variants={containerVariants}
