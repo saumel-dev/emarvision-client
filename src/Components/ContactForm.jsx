@@ -150,17 +150,15 @@ function CategorySelect({ id, name, value, onChange, placeholder, options }) {
         onKeyUp={(e) => {
           if (e.key === " ") e.preventDefault();
         }}
-        className={`flex w-full items-center justify-between gap-3 text-start text-base font-normal leading-[26px] tracking-[-0.005em] outline-none ${
-          selected ? "text-white" : "text-white/70"
-        }`}
+        className={`flex w-full items-center justify-between gap-3 text-start text-base font-normal leading-[26px] tracking-[-0.005em] outline-none ${selected ? "text-white" : "text-white/70"
+          }`}
       >
         <span>{selected ? selected.label : placeholder}</span>
         <svg
           viewBox="0 0 24 24"
           aria-hidden="true"
-          className={`size-3 shrink-0 text-white transition-transform ${
-            open ? "rotate-180" : ""
-          }`}
+          className={`size-3 shrink-0 text-white transition-transform ${open ? "rotate-180" : ""
+            }`}
           fill="none"
           stroke="currentColor"
           strokeWidth="2"
@@ -177,7 +175,7 @@ function CategorySelect({ id, name, value, onChange, placeholder, options }) {
         <ul
           id={listId}
           role="listbox"
-          className="absolute inset-x-0 top-full z-20 mt-6 max-h-80 overflow-y-auto rounded-xl border border-white/15 bg-[#270F00] p-1.5 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.6)]"
+          className="absolute inset-x-0 top-full z-20 mt-4 max-h-80 overflow-y-auto rounded-xl border border-white/15 bg-ink p-1.5 shadow-[0_20px_50px_-12px_rgba(16,11,34,0.85)] [scrollbar-color:rgba(255,255,255,0.2)_transparent] [scrollbar-width:thin]"
         >
           {options.map((option, index) => {
             const isSelected = option.value === value;
@@ -189,16 +187,15 @@ function CategorySelect({ id, name, value, onChange, placeholder, options }) {
                 aria-selected={isSelected}
                 onMouseEnter={() => setActiveIndex(index)}
                 onClick={() => choose(option)}
-                className={`flex cursor-pointer items-center justify-between gap-3 rounded-lg px-3 py-2.5 text-sm font-normal leading-5 tracking-[-0.005em] transition-colors ${
-                  isSelected ? "text-brand" : "text-white"
-                } ${index === activeIndex ? "bg-white/10" : ""}`}
+                className={`flex cursor-pointer items-center justify-between gap-3 rounded-lg px-3 py-2.5 text-sm font-normal leading-5 tracking-[-0.005em] transition-colors ${isSelected ? "text-brand-light font-medium" : "text-white"
+                  } ${index === activeIndex ? "bg-brand/25" : ""}`}
               >
                 <span>{option.label}</span>
                 {isSelected && (
                   <svg
                     viewBox="0 0 24 24"
                     aria-hidden="true"
-                    className="size-4 shrink-0"
+                    className="size-4 shrink-0 text-brand-light"
                     fill="none"
                     stroke="currentColor"
                     strokeWidth="2"
