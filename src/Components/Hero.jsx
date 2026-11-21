@@ -37,7 +37,7 @@ function DotIcon() {
 }
 
 const buttonBase =
-  "group inline-flex h-12 w-full items-center justify-center gap-3 rounded-[48px] px-7 font-mono text-base uppercase leading-[26px] text-white sm:w-auto";
+  "group inline-flex h-12 w-full items-center justify-center gap-3 rounded-[48px] px-7 text-base uppercase leading-[26px] text-white sm:w-auto font-normal";
 
 export default function Hero() {
   const t = useTranslations("Hero");
@@ -88,7 +88,7 @@ export default function Hero() {
         {/* Badge (Background box removed) */}
         <motion.p
           variants={itemVariants}
-          className="text-[16px] leading-[22px] tracking-[0.08em] uppercase text-white/70 "
+          className="text-[14px] leading-[20px] lg:text-[16px] lg:leading-[22px] tracking-[0.08em] uppercase text-white/70"
         >
           {t("badge")}
         </motion.p>
@@ -96,7 +96,7 @@ export default function Hero() {
         {/* Heading */}
         <motion.h1
           variants={itemVariants}
-          className="mt-6 text-[44px] leading-[48px] text-white sm:text-[60px] sm:leading-[64px] lg:text-[76px] lg:leading-[80px] max-w-3xl"
+          className="mt-6 font-heading text-[44px] leading-[48px] text-white sm:text-[60px] sm:leading-[64px] lg:text-[76px] lg:leading-[80px] max-w-3xl"
         >
           Every{" "}
           <span className="text-gradient-brand box-decoration-clone">

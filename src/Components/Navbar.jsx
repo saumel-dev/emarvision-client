@@ -31,7 +31,7 @@ function DotIcon() {
 
 // Shared look of the "Request consultation" button (size and display are added where it is used)
 const ctaBase =
-  "items-center justify-center gap-3 rounded-[48px] border border-brand/20 bg-linear-to-b from-brand/10 to-brand/25 px-7 font-mono text-sm uppercase leading-[26px] text-white transition hover:from-brand/20 hover:to-brand/35";
+  "items-center justify-center gap-3 rounded-[48px] border border-brand/20 bg-linear-to-b from-brand/10 to-brand/25 px-7 text-sm uppercase leading-[26px] text-white transition hover:from-brand/20 hover:to-brand/35";
 
 export default function Navbar() {
   const t = useTranslations("Navbar");

@@ -11,6 +11,7 @@
     "categories": "Kategori",
     "howItWorks": "Cara kerja",
     "faq": "FAQ",
+    "contact": "Kontak",
     "requestConsultation": "Minta konsultasi",
     "openMenu": "Buka menu",
     "closeMenu": "Tutup menu",
@@ -215,5 +216,429 @@
         "answer": "Karena produk digital dikirim secara instan, pengembalian dana ditinjau kasus per kasus. Jika ada yang tidak berfungsi sesuai deskripsi, hubungi tim kami dan kami akan memperbaikinya atau mengatur pengembalian dana jika berlaku."
       }
     }
+  },
+  "Footer": {
+    "badge": "Hubungi kami",
+    "heading": "Mari bangun sesuatu yang kreatif bersama.",
+    "description": "Perangkat lunak enterprise, layanan IT, dan produk digital untuk bisnis di seluruh MENA. Harga dalam SAR, dikirim secara digital.",
+    "social": {
+      "x": "X",
+      "facebook": "Facebook",
+      "whatsapp": "WhatsApp"
+    },
+    "links": {
+      "solutions": "Solusi",
+      "categories": "Kategori",
+      "howItWorks": "Cara kerja",
+      "faq": "FAQ",
+      "contact": "Kontak"
+    },
+    "emailLabel": "Email",
+    "emailValue": "[Alamat email resmi]",
+    "phoneLabel": "Telepon / WhatsApp",
+    "phoneValue": "[Nomor telepon resmi]",
+    "form": {
+      "name": {
+        "label": "Nama",
+        "placeholder": "Nama Anda"
+      },
+      "company": {
+        "label": "Nama perusahaan",
+        "placeholder": "Perusahaan Anda"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "jane@example.com"
+      },
+      "phone": {
+        "label": "Telepon / WhatsApp",
+        "placeholder": "Kode negara + nomor"
+      },
+      "interest": {
+        "label": "Apa yang Anda minati?",
+        "placeholder": "Pilih kategori"
+      },
+      "message": {
+        "label": "Pesan",
+        "placeholder": "Ceritakan tujuan atau kebutuhan Anda…"
+      },
+      "submit": "Mari bicara",
+      "terms": "Dengan mengirim, Anda menyetujui <terms>Ketentuan</terms> dan <privacy>Kebijakan Privasi</privacy> kami"
+    },
+    "copyright": "© {year} Emarvision. Hak cipta dilindungi.",
+    "crVat": "No. CR XXXXXXXXXX · No. PPN 3XXXXXXXXXXXXX3",
+    "termsLink": "Syarat & Ketentuan",
+    "privacyLink": "Privasi",
+    "refundLink": "Kebijakan pengembalian dana"
+  },
+  "Products": {
+    "items": {
+      "01": {
+        "title": "Pengembangan Aplikasi Web Kustom",
+        "description": "Aplikasi web yang dibuat khusus sesuai kebutuhan bisnis Anda."
+      },
+      "02": {
+        "title": "Pengembangan Website React & Next.js",
+        "description": "Website modern yang dirancang untuk memperkuat kehadiran digital Anda."
+      },
+      "03": {
+        "title": "Website Sekolah atau Perguruan Tinggi",
+        "description": "Website siap pakai bagi sekolah dan perguruan tinggi untuk membagikan informasi kepada siswa dan orang tua."
+      },
+      "04": {
+        "title": "Platform E-learning (WordPress)",
+        "description": "Platform pembelajaran online berbasis WordPress untuk kursus dan peserta didik."
+      },
+      "05": {
+        "title": "TempmailX — Layanan Email Sementara",
+        "description": "Layanan email sekali pakai yang menjaga kotak masuk asli Anda bebas dari spam."
+      },
+      "06": {
+        "title": "HostPro — Website Bisnis Hosting & Domain",
+        "description": "Website siap pakai bagi bisnis hosting dan domain untuk menjual layanan mereka secara online."
+      },
+      "07": {
+        "title": "ClippingPath — Situs Edit Foto & Penghapusan Latar Belakang",
+        "description": "Website layanan untuk bisnis edit foto dan penghapusan latar belakang."
+      },
+      "08": {
+        "title": "TopUp — Toko Top-Up Gem & Voucher Game",
+        "description": "Toko top-up untuk menjual gem dan voucher game secara online."
+      },
+      "09": {
+        "title": "Website Klinik Fisioterapi",
+        "description": "Website profesional untuk klinik fisioterapi dan para pasiennya."
+      },
+      "10": {
+        "title": "XStore — Manajemen Toko",
+        "description": "Software manajemen toko untuk menjaga produk, penjualan, dan stok tetap tertata."
+      },
+      "11": {
+        "title": "Cloth Store POS — Sistem Penjualan Toko Pakaian",
+        "description": "Sistem point-of-sale yang dibuat untuk toko pakaian dan penjualan hariannya."
+      },
+      "12": {
+        "title": "Website Social Media Marketing 2.0",
+        "description": "Website bagi agensi social media marketing untuk menampilkan layanan mereka."
+      },
+      "13": {
+        "title": "TechFire — Aplikasi Manajemen Agensi & Perusahaan Software",
+        "description": "Aplikasi manajemen bagi agensi dan perusahaan software untuk menjalankan pekerjaan mereka."
+      },
+      "14": {
+        "title": "TeamHub — Chat Tim & Manajemen Kerja",
+        "description": "Chat tim dan manajemen kerja dalam satu tempat untuk staf Anda."
+      },
+      "15": {
+        "title": "KarentPay — Payment Gateway E-wallet",
+        "description": "Payment gateway untuk pembayaran e-wallet, dibuat untuk bisnis fintech."
+      },
+      "16": {
+        "title": "Monitorfly — Pemantauan Karyawan & Proyek",
+        "description": "Pantau karyawan dan proyek dengan visibilitas yang jelas atas pekerjaan harian."
+      },
+      "17": {
+        "title": "LiveChat Desk — Sistem Live Chat & Tiket",
+        "description": "Live chat dan sistem tiket untuk mendukung pelanggan Anda."
+      },
+      "18": {
+        "title": "News Theme 1.0 — Portal Berita PHP",
+        "description": "Tema portal berita PHP untuk menerbitkan dan mengelola artikel."
+      },
+      "19": {
+        "title": "Newsroom AI — Portal Berita dengan Fitur AI",
+        "description": "Portal berita dengan fitur AI bawaan untuk mempercepat penerbitan."
+      },
+      "20": {
+        "title": "VisaCheck — Platform Pemrosesan Visa & Dokumen Perjalanan",
+        "description": "Platform untuk memproses pengajuan visa dan dokumen perjalanan."
+      },
+      "21": {
+        "title": "Konsultasi Conversion Rate Optimization",
+        "description": "Saran ahli agar lebih banyak pengunjung Anda menjadi pelanggan."
+      },
+      "22": {
+        "title": "Keamanan E-commerce & Kepatuhan PCI DSS",
+        "description": "Amankan toko online Anda dan bersiap untuk kepatuhan PCI DSS."
+      },
+      "23": {
+        "title": "Pengaturan & Optimasi Toko Online",
+        "description": "Siapkan toko online Anda dan optimalkan untuk kinerja dan penjualan yang lebih baik."
+      },
+      "24": {
+        "title": "Desain Keamanan & Kontrol Akses Data Center",
+        "description": "Perancangan keamanan fisik dan kontrol akses untuk data center."
+      },
+      "25": {
+        "title": "Konsultasi Strategi & Migrasi Shared Hosting",
+        "description": "Rencanakan strategi shared hosting Anda dan beralih dengan lancar."
+      },
+      "26": {
+        "title": "Audit Daya, Pendinginan & Efisiensi Data Center",
+        "description": "Audit daya, pendinginan, dan efisiensi di data center Anda."
+      },
+      "27": {
+        "title": "Konsultasi Desain & Pembangunan Data Center",
+        "description": "Konsultasi untuk merancang dan membangun data center."
+      },
+      "28": {
+        "title": "Manajemen Microsoft 365 & Google Workspace",
+        "description": "Pengaturan dan pengelolaan harian Microsoft 365 dan Google Workspace."
+      },
+      "29": {
+        "title": "Layanan Backup & Disaster Recovery",
+        "description": "Layanan backup dan pemulihan agar bisnis Anda tetap berjalan setelah gangguan."
+      },
+      "30": {
+        "title": "Pemantauan & Pemeliharaan Sistem",
+        "description": "Pemantauan dan pemeliharaan sistem berkelanjutan untuk mendeteksi masalah sejak dini."
+      },
+      "31": {
+        "title": "Dukungan IT Jarak Jauh & Helpdesk 24/7",
+        "description": "Dukungan IT jarak jauh dan helpdesk yang tersedia sepanjang waktu."
+      },
+      "32": {
+        "title": "Virtual Tech Director per Jam (vCIO/vCTO)",
+        "description": "Sewa CIO atau CTO virtual per jam untuk kepemimpinan teknologi."
+      },
+      "33": {
+        "title": "Perencanaan Business Continuity & Disaster Recovery",
+        "description": "Rencanakan cara menjaga bisnis Anda tetap berjalan dan pulih dengan cepat dari bencana."
+      },
+      "34": {
+        "title": "Kesiapan Kepatuhan Standar Keamanan Siber",
+        "description": "Bersiaplah memenuhi standar keamanan siber dan persyaratan kepatuhan."
+      },
+      "35": {
+        "title": "Konsultasi Migrasi Cloud & Arsitektur",
+        "description": "Panduan untuk bermigrasi ke cloud dan merancang arsitektur yang tepat."
+      },
+      "36": {
+        "title": "Konsultasi Strategi IT & Transformasi Digital",
+        "description": "Konsultasi strategi IT dan transformasi digital untuk bisnis Anda."
+      },
+      "37": {
+        "title": "Pelatihan Kesadaran Keamanan",
+        "description": "Pelatihan yang membantu tim Anda mengenali dan menghindari ancaman keamanan."
+      },
+      "38": {
+        "title": "Layanan Manajemen Kerentanan",
+        "description": "Layanan untuk menemukan, melacak, dan memperbaiki kelemahan keamanan pada sistem Anda."
+      },
+      "39": {
+        "title": "Manajemen Firewall & Keamanan Jaringan",
+        "description": "Pengelolaan firewall dan keamanan jaringan untuk bisnis Anda."
+      },
+      "40": {
+        "title": "Keamanan Endpoint Terkelola (EDR/MDR)",
+        "description": "Perlindungan terkelola untuk perangkat Anda dengan endpoint detection and response."
+      },
+      "41": {
+        "title": "Security Operations Center Terkelola 24/7",
+        "description": "Security operations center terkelola yang memantau sistem Anda sepanjang waktu."
+      },
+      "42": {
+        "title": "Latihan Phishing & Social Engineering",
+        "description": "Uji tim Anda dengan latihan phishing dan social engineering yang realistis."
+      },
+      "43": {
+        "title": "Penilaian Keamanan API",
+        "description": "Temukan kelemahan keamanan pada API Anda sebelum penyerang menemukannya."
+      },
+      "44": {
+        "title": "Penilaian Keamanan Cloud",
+        "description": "Tinjau konfigurasi cloud Anda untuk menemukan risiko dan celah keamanan."
+      },
+      "45": {
+        "title": "Penetration Test Jaringan & Infrastruktur",
+        "description": "Penetration testing untuk jaringan dan infrastruktur Anda."
+      },
+      "46": {
+        "title": "Penetration Test Aplikasi Mobile",
+        "description": "Penetration testing untuk menemukan kelemahan keamanan pada aplikasi mobile Anda."
+      },
+      "47": {
+        "title": "Penetration Test Aplikasi Web",
+        "description": "Nilai aplikasi web Anda dan identifikasi kelemahan keamanannya."
+      },
+      "48": {
+        "title": "Integrasi Stripe",
+        "description": "Terima pembayaran online dengan mengintegrasikan Stripe ke platform Anda."
+      },
+      "49": {
+        "title": "Integrasi Mamo Pay (UEA)",
+        "description": "Integrasikan Mamo Pay untuk menerima pembayaran di Uni Emirat Arab."
+      },
+      "50": {
+        "title": "Integrasi Mastercard MPGS",
+        "description": "Hubungkan platform Anda ke Mastercard Payment Gateway Services (MPGS)."
+      },
+      "51": {
+        "title": "Integrasi CyberSource",
+        "description": "Integrasikan platform pembayaran CyberSource ke website Anda."
+      },
+      "52": {
+        "title": "QR & Barcode Master — Aplikasi Android",
+        "description": "Aplikasi Android untuk memindai dan membuat kode QR serta barcode."
+      },
+      "53": {
+        "title": "Multi Calendar — Aplikasi Android",
+        "description": "Aplikasi kalender Android yang mendukung berbagai kalender."
+      },
+      "54": {
+        "title": "Bhara Khujun — Marketplace Sewa Rumah & Properti",
+        "description": "Marketplace untuk mencari dan mencantumkan rumah serta properti untuk disewakan."
+      },
+      "55": {
+        "title": "Scan2PC — Pemindai Barcode Ponsel & Penerima di Komputer",
+        "description": "Ubah ponsel Anda menjadi pemindai barcode yang mengirim hasil pindai ke komputer Anda."
+      },
+      "56": {
+        "title": "ChatCooker — Platform Chat AI",
+        "description": "Platform chat berbasis AI untuk percakapan dan bantuan."
+      },
+      "57": {
+        "title": "Inventory Manager — Sistem Inventaris Laravel",
+        "description": "Sistem inventaris berbasis Laravel untuk melacak stok dan produk Anda."
+      },
+      "58": {
+        "title": "BlackWolf — Toko Online PHP & Aplikasi Admin Android",
+        "description": "Toko online PHP dengan aplikasi admin Android untuk mengelolanya."
+      },
+      "59": {
+        "title": "Payment Gateway CyberSource untuk WooCommerce",
+        "description": "Terima pembayaran di toko WooCommerce Anda dengan gateway CyberSource."
+      },
+      "60": {
+        "title": "My Wallet — Aplikasi Keuangan Pribadi Offline",
+        "description": "Aplikasi keuangan pribadi yang berfungsi offline untuk mencatat uang Anda."
+      },
+      "61": {
+        "title": "AI Keyboard Pro — Keyboard Android",
+        "description": "Keyboard Android dengan bantuan menulis berbasis AI."
+      },
+      "62": {
+        "title": "ReviewX — Platform Micro-Task & Ulasan",
+        "description": "Platform tempat pengguna menyelesaikan micro-task dan menulis ulasan."
+      },
+      "63": {
+        "title": "Orbit — File Manager Berbasis Browser",
+        "description": "File manager yang berjalan langsung di browser Anda."
+      },
+      "64": {
+        "title": "CryptoX — Platform Trading Kripto",
+        "description": "Platform trading kripto untuk membeli, menjual, dan melacak aset."
+      },
+      "65": {
+        "title": "Barakah Markets — Marketplace Multi-Vendor",
+        "description": "Marketplace multi-vendor tempat banyak penjual dapat berjualan dalam satu toko."
+      },
+      "66": {
+        "title": "Bhumi Bonton — Aplikasi Perhitungan Bagian Tanah",
+        "description": "Aplikasi untuk menghitung dan melacak bagian kepemilikan tanah."
+      },
+      "67": {
+        "title": "Layanan Publikasi Aplikasi di App Store & Google Play",
+        "description": "Publikasikan aplikasi Anda di App Store dan Google Play."
+      },
+      "68": {
+        "title": "Pengujian & Peningkatan Kecepatan Situs Laravel",
+        "description": "Uji kecepatan situs Laravel Anda dan tingkatkan kinerjanya."
+      },
+      "69": {
+        "title": "Integrasi Payment Gateway — mada, Apple Pay, Tabby & STC Pay",
+        "description": "Hubungkan platform Anda dengan mada, Apple Pay, Tabby, dan STC Pay."
+      },
+      "70": {
+        "title": "Integrasi ZATCA Fase 2 & Fatoora",
+        "description": "Persyaratan penagihan dan integrasi yang berfokus pada Arab Saudi."
+      },
+      "71": {
+        "title": "Mawaeed — Sistem Booking WordPress",
+        "description": "Sistem booking WordPress untuk janji temu dan reservasi."
+      },
+      "72": {
+        "title": "Atelier — Situs Portofolio Next.js",
+        "description": "Situs portofolio Next.js untuk menampilkan karya Anda."
+      },
+      "73": {
+        "title": "LaunchDeck — 12 Template Landing Page",
+        "description": "12 template landing page untuk meluncurkan kampanye Anda lebih cepat."
+      },
+      "74": {
+        "title": "PulseFit — Aplikasi Kebugaran Android & Wear OS",
+        "description": "Aplikasi kebugaran untuk Android dan Wear OS."
+      },
+      "75": {
+        "title": "Tawsil — Paket Aplikasi Pengiriman Flutter",
+        "description": "Paket aplikasi Flutter untuk bisnis pengiriman."
+      },
+      "76": {
+        "title": "Rassid POS — Sistem Penjualan Android Offline",
+        "description": "Sistem penjualan Android offline untuk toko."
+      },
+      "77": {
+        "title": "TenantKit — Template SaaS Multi-Tenant Laravel",
+        "description": "Template SaaS multi-tenant Laravel untuk meluncurkan layanan software Anda sendiri."
+      },
+      "78": {
+        "title": "Souq — Toko Multi-Vendor Laravel",
+        "description": "Toko multi-vendor Laravel untuk menjalankan marketplace online."
+      },
+      "79": {
+        "title": "Gateway Meta Pixel & Conversions API untuk WooCommerce",
+        "description": "Hubungkan Meta Pixel dan Conversions API ke toko WooCommerce Anda."
+      },
+      "80": {
+        "title": "Paket WhatsApp Cloud API",
+        "description": "Paket untuk menghubungkan bisnis Anda ke WhatsApp Cloud API."
+      },
+      "81": {
+        "title": "Engine E-Invoicing ZATCA Fase 2 untuk Laravel",
+        "description": "Engine e-invoicing untuk Laravel yang mengikuti ZATCA Fase 2."
+      },
+      "82": {
+        "title": "Sistem Manajemen Properti Emarvision",
+        "description": "Sistem manajemen properti yang dibuat oleh Emarvision."
+      },
+      "83": {
+        "title": "Pengaturan TURN Server di DigitalOcean",
+        "description": "Siapkan TURN server di DigitalOcean untuk panggilan real-time."
+      },
+      "84": {
+        "title": "WebViewPro — Aplikasi Android WebView dengan Enkripsi C++",
+        "description": "Aplikasi Android WebView dengan enkripsi C++."
+      },
+      "85": {
+        "title": "Pilot Chat — Solusi Pesan & Panggilan Real-Time",
+        "description": "Solusi pesan dan panggilan real-time."
+      },
+      "86": {
+        "title": "SwiftPOS PHP — Software Ritel & E-commerce",
+        "description": "Software ritel dan e-commerce berbasis PHP untuk menjalankan bisnis Anda."
+      },
+      "87": {
+        "title": "OmniSync Pro — Toko Laravel & ERP POS Android",
+        "description": "Toko Laravel dengan aplikasi POS Android dan fitur ERP."
+      },
+      "88": {
+        "title": "Engine E-commerce & POS All-in-One",
+        "description": "Engine all-in-one untuk e-commerce dan point-of-sale."
+      }
+    }
+  },
+  "Categories": {
+    "heading": "Temukan beragam solusi inovatif",
+    "searchPlaceholder": "Cari produk atau layanan...",
+    "searchLabel": "Cari produk dan layanan",
+    "clearSearch": "Hapus pencarian",
+    "categoriesLabel": "Kategori produk",
+    "price": "SAR {amount}",
+    "priceNote": "Harga awal akan diumumkan",
+    "requestDetails": "Minta Detail",
+    "loadMore": "Muat Solusi Lainnya",
+    "showing": "Menampilkan {shown} dari {total} solusi",
+    "noResults": "Solusi tidak ditemukan",
+    "noResultsHint": "Coba kata kunci lain atau pilih kategori."
   }
 }

@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 const serviceIds = ["01", "02", "03", "04", "05", "06", "07", "08", "09"];
 
 const inputClass =
-  "block w-full bg-transparent font-mono text-base leading-5 text-white outline-none placeholder:text-white/70";
+  "block w-full bg-transparent text-base font-normal leading-[26px] tracking-[-0.005em] text-white outline-none placeholder:text-white/70";
 
 // Shows the dotted arrow icon in black (the file itself is white)
 const dotMask = {
@@ -40,7 +40,7 @@ function Field({ id, label, children }) {
     <div className="relative border-b border-white/90 py-5 transition-colors first:pt-0 focus-within:border-white">
       <label
         htmlFor={id}
-        className="block font-mono text-base leading-5 text-white uppercase"
+        className="block text-base font-normal leading-[26px] tracking-[-0.005em] text-white/70 uppercase"
       >
         {label}
       </label>
@@ -150,7 +150,7 @@ function CategorySelect({ id, name, value, onChange, placeholder, options }) {
         onKeyUp={(e) => {
           if (e.key === " ") e.preventDefault();
         }}
-        className={`flex w-full items-center justify-between gap-3 text-start font-mono text-base leading-5 outline-none ${
+        className={`flex w-full items-center justify-between gap-3 text-start text-base font-normal leading-[26px] tracking-[-0.005em] outline-none ${
           selected ? "text-white" : "text-white/70"
         }`}
       >
@@ -189,7 +189,7 @@ function CategorySelect({ id, name, value, onChange, placeholder, options }) {
                 aria-selected={isSelected}
                 onMouseEnter={() => setActiveIndex(index)}
                 onClick={() => choose(option)}
-                className={`flex cursor-pointer items-center justify-between gap-3 rounded-lg px-3 py-2.5 font-mono text-sm leading-5 transition-colors ${
+                className={`flex cursor-pointer items-center justify-between gap-3 rounded-lg px-3 py-2.5 text-sm font-normal leading-5 tracking-[-0.005em] transition-colors ${
                   isSelected ? "text-brand" : "text-white"
                 } ${index === activeIndex ? "bg-white/10" : ""}`}
               >
@@ -309,7 +309,7 @@ export default function ContactForm({ className = "" }) {
       <div className="mt-12">
         <button
           type="submit"
-          className="inline-flex h-12 items-center gap-3 rounded-full bg-white px-7 font-mono text-base leading-6 text-black uppercase transition-colors hover:bg-white/90"
+          className="inline-flex h-12 items-center gap-3 rounded-full bg-white px-7 text-base font-normal leading-[26px] tracking-[-0.005em] text-black uppercase transition-colors hover:bg-white/90"
         >
           {t("form.submit")}
           <span
@@ -320,8 +320,8 @@ export default function ContactForm({ className = "" }) {
         </button>
       </div>
 
-      {/* Terms and Privacy Policy are links to "#" for now */}
-      <p className="mt-9 font-mono text-base leading-5 text-white uppercase">
+      {/* Terms and Privacy Policy */}
+      <p className="mt-9 text-base font-normal leading-[26px] tracking-[-0.005em] text-white/60 uppercase">
         {t.rich("form.terms", {
           terms: (chunks) => (
             <a href="#" className="underline-offset-4 hover:underline">

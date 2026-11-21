@@ -58,7 +58,7 @@ export default function Consultation() {
             {/* Scrolls down to the contact form in the footer */}
             <a
               href="#contact"
-              className="mt-8 inline-flex h-12 items-center justify-center gap-3 rounded-[48px] bg-white px-7 font-mono text-base leading-[26px] text-brand uppercase transition hover:bg-white/90"
+              className="mt-8 inline-flex h-12 items-center justify-center gap-3 rounded-[48px] bg-white px-7 text-base leading-[26px] text-brand uppercase transition hover:bg-white/90"
             >
               {t("button")}
               <DotIconBrand />

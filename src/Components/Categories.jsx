@@ -261,7 +261,7 @@ function CategoriesSection() {
                         </span>
                         <span
                           aria-hidden="true"
-                          className="absolute end-4 top-4 rounded-md bg-black/30 px-2 py-1 font-mono text-xs text-white/80 backdrop-blur-sm"
+                          className="absolute end-4 top-4 rounded-md bg-black/30 px-2 py-1 text-xs text-white/80 backdrop-blur-sm"
                         >
                           {String(i + 1).padStart(2, "0")}
                         </span>

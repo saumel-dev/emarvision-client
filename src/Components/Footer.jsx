@@ -32,7 +32,7 @@ export default function Footer() {
         <div className="mx-auto grid max-w-[1284px] grid-cols-1 lg:grid-cols-4 lg:gap-y-20">
           {/* Badge */}
           <div className="lg:col-start-1 lg:row-start-1">
-            <span className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-2 font-mono text-sm leading-4 text-[#633EE9] uppercase">
+            <span className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-2 text-sm leading-4 text-[#633EE9] uppercase">
               <span className="size-1.5 rounded-full bg-[#633EE9]" />
               {t("badge")}
             </span>
@@ -53,7 +53,7 @@ export default function Footer() {
             {/* Email and phone */}
             <div className="lg:mt-[136px]">
               <div>
-                <p className="flex items-center gap-2 font-mono text-sm leading-5 text-white uppercase">
+                <p className="flex items-center gap-2 text-sm leading-5 text-white uppercase">
                   <Image
                     src="/assets/footer/mail.svg"
                     alt=""
@@ -63,12 +63,12 @@ export default function Footer() {
                   />
                   {t("emailLabel")}
                 </p>
-                <p className="mt-3 font-mono text-sm leading-5 text-white/70 uppercase">
+                <p className="mt-3 text-sm leading-5 text-white/70 uppercase">
                   {t("emailValue")}
                 </p>
               </div>
               <div className="mt-7">
-                <p className="flex items-center gap-2 font-mono text-sm leading-5 text-white uppercase">
+                <p className="flex items-center gap-2 text-sm leading-5 text-white uppercase">
                   <Image
                     src="/assets/footer/phone.svg"
                     alt=""
@@ -78,7 +78,7 @@ export default function Footer() {
                   />
                   {t("phoneLabel")}
                 </p>
-                <p className="mt-3 font-mono text-sm leading-5 text-white/70 uppercase">
+                <p className="mt-3 text-sm leading-5 text-white/70 uppercase">
                   {t("phoneValue")}
                 </p>
               </div>
@@ -91,7 +91,7 @@ export default function Footer() {
                   <li key={item.id}>
                     <a
                       href={`#${item.id}`}
-                      className="font-mono text-sm leading-5 text-white uppercase hover:underline"
+                      className=" text-sm leading-5 text-white uppercase hover:underline"
                     >
                       {t(`links.${item.key}`)}
                     </a>
@@ -102,7 +102,7 @@ export default function Footer() {
 
             {/* Description and social icons */}
             <div className="mt-12 lg:mt-0">
-              <p className="text-base leading-[26px] text-white/70 lg:max-w-[320px]">
+              <p className="text-base leading-[26px] text-white/80 lg:max-w-[320px]">
                 {t("description")}
               </p>
               <ul className="mt-6 flex gap-3">
@@ -145,7 +145,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="px-5 py-7 lg:px-10 lg:pt-11 lg:pb-9 xl:px-20">
-          <div className="mx-auto flex max-w-[1284px] flex-col gap-[18px] text-sm leading-5 text-white/70 lg:grid lg:grid-cols-[1fr_auto_1fr] lg:items-center">
+          <div className="mx-auto flex max-w-[1284px] flex-col gap-[18px] text-sm leading-5 text-[#D9D1ED] lg:grid lg:grid-cols-[1fr_auto_1fr] lg:items-center">
             <p>{t("copyright", { year })}</p>
             <p>{t("crVat")}</p>
             <ul className="flex flex-wrap gap-x-5 gap-y-2 lg:justify-self-end lg:gap-x-6">

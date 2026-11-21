@@ -52,9 +52,8 @@ export default function Solutions() {
                 ease: [0.22, 1, 0.36, 1],
                 delay: (i % 3) * 0.1,
               }}
-              className={`${
-                i === index ? "flex" : "hidden"
-              } solution-card group relative isolate flex-col overflow-hidden rounded-xl border border-white/10 bg-[#241A38] transition-[translate,border-color,box-shadow] duration-300 ease-out hover:-translate-y-1 hover:border-brand-light/30 hover:shadow-[0_24px_60px_-24px_rgba(99,62,233,0.6)] focus-within:border-brand-light/30 md:flex`}
+              className={`${i === index ? "flex" : "hidden"
+                } solution-card group relative isolate flex-col overflow-hidden rounded-xl border border-white/10 bg-[#241A38] transition-[translate,border-color,box-shadow] duration-300 ease-out hover:-translate-y-1 hover:border-brand-light/30 hover:shadow-[0_24px_60px_-24px_rgba(99,62,233,0.6)] focus-within:border-brand-light/30 md:flex`}
             >
               {/* Soft purple glow at the bottom, behind the button */}
               <span
@@ -73,7 +72,7 @@ export default function Solutions() {
               />
 
               <div className="flex flex-1 flex-col p-6">
-                <p className="font-mono text-base font-normal text-white/70 uppercase">
+                <p className=" text-base font-normal text-white/70 uppercase">
                   {t(`items.${item.key}.category`)}
                 </p>
 

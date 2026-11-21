@@ -11,7 +11,7 @@ function StepBadge({ active, label }) {
         slot === active ? (
           <span
             key={key}
-            className="flex h-[30px] items-center rounded-lg border border-brand px-3 font-mono text-xs leading-none whitespace-nowrap text-white"
+            className="flex h-[30px] items-center rounded-lg border border-brand px-3  text-xs leading-none whitespace-nowrap text-white"
           >
             {label}
           </span>

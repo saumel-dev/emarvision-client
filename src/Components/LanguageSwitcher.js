@@ -55,7 +55,7 @@ export default function LanguageSwitcher() {
         aria-haspopup="true"
         aria-expanded={open}
         aria-label={t("language")}
-        className={`inline-flex h-[34px] items-center gap-2 rounded-[48px] border px-3.5 font-mono text-sm uppercase transition-colors ${
+        className={`inline-flex h-[34px] items-center gap-2 rounded-[48px] border px-3.5  text-sm uppercase transition-colors ${
           open
             ? "border-brand/60 text-brand-light"
             : "border-white/15 text-white hover:border-brand/60 hover:text-brand-light"
@@ -119,7 +119,7 @@ export default function LanguageSwitcher() {
                     {l.native}
                   </span>
                   <span
-                    className={`font-mono text-xs uppercase ${
+                    className={` text-xs uppercase ${
                       isActive ? "text-brand-light" : "text-white/40"
                     }`}
                   >

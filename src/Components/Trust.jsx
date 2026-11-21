@@ -77,7 +77,7 @@ export default function Trust() {
 
         {/* Secure checkout + payment logos */}
         <div className="mt-12 flex flex-col items-center lg:mt-16">
-          <p className="font-mono text-base leading-4 tracking-[0.2em] text-white/70 uppercase">
+          <p className=" text-base leading-4 tracking-[0.2em] text-white/70 uppercase">
             {t("secureCheckout")}
           </p>
 
