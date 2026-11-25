@@ -9,8 +9,8 @@ import LanguageSwitcher from "./LanguageSwitcher";
 // Each link jumps to the section that has this id, e.g. <section id="solutions">
 const links = [
   { id: "solutions", key: "solutions" },
-  { id: "categories", key: "categories" },
   { id: "how-it-works", key: "howItWorks" },
+  { id: "categories", key: "categories" },
   { id: "faq", key: "faq" },
   { id: "contact", key: "contact" }
 ];
@@ -81,17 +81,15 @@ export default function Navbar() {
   }, [menuOpen]);
 
   const itemClass = (id) =>
-    ` text-sm uppercase leading-[26px] transition-colors hover:text-brand ${
-      active === id ? "text-brand" : "text-white"
+    ` text-sm uppercase leading-[26px] transition-colors hover:text-brand ${active === id ? "text-brand" : "text-white"
     }`;
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 border-b transition-colors duration-300 ${
-        scrolled || menuOpen
-          ? "border-white/5 bg-[#100B22]/50 backdrop-blur-md"
-          : "border-transparent bg-transparent"
-      }`}
+      className={`fixed inset-x-0 top-0 z-50 border-b transition-colors duration-300 ${scrolled || menuOpen
+        ? "border-white/5 bg-[#100B22]/50 backdrop-blur-md"
+        : "border-transparent bg-transparent"
+        }`}
     >
       {/* Full width: logo at the far left, buttons at the far right, links in the exact center */}
       <div className="grid w-full grid-cols-[auto_1fr_auto] items-center px-5 py-6 lg:grid-cols-[1fr_auto_1fr] lg:px-10 lg:py-[30px] xl:px-20">
