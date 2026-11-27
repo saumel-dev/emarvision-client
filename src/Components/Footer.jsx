@@ -12,8 +12,8 @@ const socials = [
 // Each link scrolls to the section with this id
 const links = [
   { id: "solutions", key: "solutions" },
-  { id: "categories", key: "categories" },
   { id: "how-it-works", key: "howItWorks" },
+  { id: "categories", key: "categories" },
   { id: "faq", key: "faq" },
   { id: "contact", key: "contact" },
 ];
