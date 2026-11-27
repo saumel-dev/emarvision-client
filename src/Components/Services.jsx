@@ -91,7 +91,7 @@ export default function Services() {
               <div className="mt-auto pt-8">
                 {/* The ::after layer stretches the link over the whole card */}
                 <a
-                  href="#contact"
+                  href="#categories"
                   aria-label={`${t("explore")}: ${t(`items.${id}.title`)}`}
                   className="inline-flex items-center gap-2.5 rounded-full border border-white/10 bg-white/10 px-5 py-2.5 text-lg leading-[30px] text-white transition-[background-color,border-color,box-shadow,scale] duration-300 group-hover:border-brand group-hover:bg-brand group-hover:shadow-[0_0_32px_rgba(99,62,233,0.55)] group-focus-within:border-brand group-focus-within:bg-brand group-active:scale-[0.97] after:absolute after:inset-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-light"
                 >
