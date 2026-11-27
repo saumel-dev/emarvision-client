@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "motion/react";
 
 // Replace this with your real WhatsApp link, e.g. https://wa.me/8801XXXXXXXXX
-const WHATSAPP_URL = "https://wa.me/0000000000";
+const WHATSAPP_URL = "https://wa.me/8801979053767";
 
 // Each question reads its text from messages: Faq.items.<key>.question / .answer
 const items = [

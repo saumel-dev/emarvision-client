@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm";
 const socials = [
   { key: "x", href: "#", icon: "/assets/footer/x.svg" },
   { key: "facebook", href: "#", icon: "/assets/footer/facebook.svg" },
-  { key: "whatsapp", href: "#", icon: "/assets/footer/whatsapp.svg" },
+  { key: "whatsapp", href: "https://wa.me/8801979053767", icon: "/assets/footer/whatsapp.svg" },
 ];
 
 // Each link scrolls to the section with this id
