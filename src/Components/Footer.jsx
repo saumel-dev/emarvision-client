@@ -65,7 +65,7 @@ export default function Footer() {
                 </p>
                 <a
                   href={`mailto:${t("emailValue")}`}
-                  className="mt-3 block text-sm leading-5 text-white/70 uppercase hover:underline"
+                  className="mt-3 block text-sm leading-5 text-white/70 hover:underline"
                 >
                   {t("emailValue")}
                 </a>

@@ -234,7 +234,7 @@
       "contact": "Contact"
     },
     "emailLabel": "Email",
-    "emailValue": "[info@emarvision.com]",
+    "emailValue": "info@emarvision.com",
     "phoneLabel": "Phone / WhatsApp",
     "phoneValue": "[Official phone number]",
     "form": {
